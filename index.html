@@ -1,0 +1,776 @@
+<!doctype html><html><head>
+<meta name="robots" content="noindex, nofollow"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>さやかの台湾大学院探検</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Shippori+Mincho+B1:wght@600;700&display=swap">
+<style>
+:root{
+  --bg:#F7F6F2; --paper:#FFFFFF; --ink:#24323C; --sub:#5C6972; --line:#E2E4E1; --frame:#B9DAE8;
+  --sky:#8CC8E0; --sky-d:#2C7AA0; --sky-soft:#E7F3F8;
+  --sun:#C99A35; --sun-soft:#F6EED9; --rose:#BE6A5B; --rose-soft:#F7E7E3; --leaf:#6E9468; --leaf-soft:#E7EFE5; --onsky:#0F2A38;
+  --f-body:'Zen Kaku Gothic New','Hiragino Sans','Noto Sans JP',sans-serif;
+  --f-disp:'Shippori Mincho B1','Hiragino Mincho ProN','Noto Serif JP',serif;
+  --navh:84px;
+  --lilac:#8B72B6; --lilac-soft:#EFEAF7;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#161E23; --paper:#1E282E; --ink:#ECF1F3; --sub:#A3B1B9; --line:#33424B; --frame:#3E6274; --sky:#7FC0DB; --sky-d:#8FD0EA; --sky-soft:#1D3440; --sun:#E0BE6E; --sun-soft:#372F1D; --rose:#E8A193; --rose-soft:#3B2926; --leaf:#A3C29F; --leaf-soft:#24322A; --onsky:#0F2A38; --lilac:#C3B1E6; --lilac-soft:#2C2738; color-scheme:dark }}
+:root[data-theme="dark"]{ --bg:#161E23; --paper:#1E282E; --ink:#ECF1F3; --sub:#A3B1B9; --line:#33424B; --frame:#3E6274; --sky:#7FC0DB; --sky-d:#8FD0EA; --sky-soft:#1D3440; --sun:#E0BE6E; --sun-soft:#372F1D; --rose:#E8A193; --rose-soft:#3B2926; --leaf:#A3C29F; --leaf-soft:#24322A; --onsky:#0F2A38; --lilac:#C3B1E6; --lilac-soft:#2C2738; color-scheme:dark }
+*{box-sizing:border-box}
+html{scroll-padding-top:16px}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.85;margin:0;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-top:max(20px, env(safe-area-inset-top, 0px));padding-bottom:calc(var(--navh) + 40px + env(safe-area-inset-bottom, 0px))}
+h1,h2,h3,p{margin:0}
+b{font-weight:700}
+.view{display:flex;flex-direction:column;gap:56px}
+.view[hidden]{display:none!important}
+section{display:flex;flex-direction:column;gap:16px;scroll-margin-top:16px}
+.eyebrow{font-family:var(--f-disp);font-size:.82rem;letter-spacing:.18em;color:var(--sky-d);font-weight:600}
+h2{font-family:var(--f-disp);font-weight:700;font-size:1.32rem;line-height:1.55;text-wrap:balance;padding-bottom:10px;border-bottom:1px solid var(--frame);position:relative}
+h2::after{content:"";position:absolute;left:0;bottom:-3px;width:5px;height:5px;border-radius:50%;background:var(--sky)}
+h3{font-size:1.02rem;font-weight:700;line-height:1.55}
+.lead{color:var(--sub);font-size:.94rem}
+.note{font-size:.78rem;color:var(--sub);line-height:1.65}
+.num{font-family:var(--f-disp);font-weight:700;font-variant-numeric:tabular-nums}
+
+/* card = thin sky line */
+.card{background:var(--paper);border:1px solid var(--frame);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.card.soft{background:var(--sky-soft);border-color:transparent}
+.card.main{border:1.5px solid var(--sky-d)}
+.card .meta{font-size:.8rem;color:var(--sub);line-height:1.6}
+.stack{display:flex;flex-direction:column;gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:0 9px;border-radius:3px;background:var(--bg);color:var(--sub);margin-right:4px;line-height:1.9}
+.tag.sky{background:var(--sky-soft);color:var(--sky-d)} .tag.rose{background:var(--rose-soft);color:var(--rose)} .tag.sun{background:var(--sun-soft);color:var(--ink)} .tag.leaf{background:var(--leaf-soft);color:var(--leaf)}
+
+/* view head */
+.vhead{display:flex;flex-direction:column;gap:8px;padding-top:8px}
+.vhead h1{font-family:var(--f-disp);font-weight:700;font-size:1.75rem;line-height:1.45;text-wrap:balance}
+.vhead .lead{max-width:30em}
+.jump{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.jump button{font:inherit;font-size:.8rem;font-weight:500;color:var(--sky-d);background:transparent;border:1px solid var(--frame);border-radius:3px;padding:2px 10px;cursor:pointer}
+.jump button:focus-visible,.bnav a:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px}
+
+/* motif: small dot flower (original) */
+.motif{display:block;height:14px;background:radial-gradient(circle, var(--sky) 0 2.5px, transparent 3px) 0 50%/18px 14px repeat-x;opacity:.7}
+
+/* hero */
+.hero{display:flex;flex-direction:column;gap:16px}
+.hero-art{width:100%;height:auto;display:block;border-radius:6px;border:1px solid var(--frame)}
+.hero .to{font-family:var(--f-disp);font-size:1rem;color:var(--sky-d);letter-spacing:.1em}
+.hero h1{font-family:var(--f-disp);font-weight:700;font-size:2rem;line-height:1.5;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--sky-d);background:linear-gradient(transparent 68%, var(--sky-soft) 68%)}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--frame);border-radius:6px;background:var(--paper)}
+.kpi{padding:14px 8px;text-align:center;display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--frame)}
+.kpi:first-child{border-left:0}
+.kpi .num{font-size:1.5rem;line-height:1.2;color:var(--sky-d)}
+.kpi .num small{font-size:.75rem;font-family:var(--f-body);color:var(--ink)}
+.kpi span{font-size:.74rem;color:var(--sub);line-height:1.5}
+.route{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.88rem;font-weight:500}
+.route span{border:1px solid var(--frame);background:var(--paper);border-radius:3px;padding:1px 10px}
+.route i{font-style:normal;color:var(--sky)}
+
+.why q{font-family:var(--f-disp);font-weight:700;font-size:1.12rem;line-height:1.75;quotes:"「" "」";color:var(--sky-d)}
+ul.dots{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+ul.dots li{padding-left:18px;position:relative}
+ul.dots li::before{content:"";position:absolute;left:2px;top:.75em;width:7px;height:7px;border-radius:50%;background:var(--sky)}
+
+/* timeline */
+.tl{position:relative;padding-left:30px;display:flex;flex-direction:column}
+.tl::before{content:"";position:absolute;left:9px;top:10px;bottom:10px;border-left:1.5px solid var(--frame)}
+.step{position:relative;padding-bottom:22px}
+.step:last-child{padding-bottom:0}
+.step::before{content:"";position:absolute;left:-26px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:1.5px solid var(--c,var(--sky-d))}
+.step.big::before{background:var(--c,var(--sky-d))}
+.step .when{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.step .date{font-family:var(--f-disp);font-weight:700;font-size:1.05rem;color:var(--c,var(--sky-d))}
+.step .age{font-size:.72rem;color:var(--sub);border:1px solid var(--line);border-radius:3px;padding:0 6px}
+.step p{color:var(--sub);font-size:.88rem;line-height:1.7}
+.phase{margin:2px 0 14px -30px;font-family:var(--f-disp);font-weight:700;font-size:.9rem;color:var(--c);display:flex;align-items:center;gap:8px}
+.phase::after{content:"";flex:1;border-top:1px dashed var(--frame)}
+.place{border-top:3px solid var(--c)}
+.place b{font-size:1rem} .place small{color:var(--sub);font-size:.78rem;line-height:1.55}
+
+/* bars */
+.bars{display:flex;flex-direction:column;gap:12px}
+.bar{display:grid;grid-template-columns:6.6em minmax(0,1fr);gap:10px;align-items:center}
+.bar .lab{font-size:.8rem;font-weight:500;line-height:1.4}
+.track{position:relative;height:26px;background:var(--bg);border-radius:3px;overflow:hidden}
+.fill{position:absolute;top:0;bottom:0;left:0;background:var(--c);border-radius:3px}
+.val{position:absolute;top:50%;transform:translateY(-50%);font-size:.84rem;font-weight:700;white-space:nowrap;left:calc(var(--w) + 8px)}
+.val.in{left:10px;color:var(--onsky)} .val.in.light{color:var(--bg)}
+.stackbar{display:flex;height:34px;border-radius:3px;overflow:hidden;gap:2px}
+.stackbar div{background:var(--c);display:flex;align-items:center;justify-content:center;font-size:.76rem;font-weight:700;color:var(--onsky);min-width:0;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;color:var(--sub)}
+.legend span::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--c);margin-right:5px;vertical-align:0}
+/* range bars */
+.rng{display:flex;flex-direction:column;gap:12px}
+.rng .row{display:flex;flex-direction:column;gap:4px}
+.rng .top{display:flex;justify-content:space-between;gap:10px;font-size:.86rem}
+.rng .top b{white-space:nowrap}
+.rng .track{height:12px}
+.rng .fill{left:var(--a);width:calc(var(--b) - var(--a));background:var(--c)}
+.rng .fill.base{left:0;width:var(--a);opacity:.35}
+
+.kv{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;font-size:.9rem;margin:0}
+.kv dt{color:var(--sub)} .kv dd{margin:0;font-weight:700;text-align:right}
+.kv.top{border-top:1px dashed var(--frame);padding-top:12px}
+.callout{background:var(--sky-soft);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;font-size:.9rem}
+.callout b.h{font-family:var(--f-disp);color:var(--sky-d)}
+
+/* cost options (brother) */
+.opt{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:baseline}
+.opt .num{font-size:1.35rem;color:var(--c)}
+.opt small{grid-column:1/-1;color:var(--sub);font-size:.78rem;line-height:1.6}
+
+/* who pays */
+.who{display:grid;grid-template-columns:minmax(0,1fr) 8.4em;border:1px solid var(--frame);border-radius:6px;background:var(--paper);font-size:.88rem;overflow:hidden}
+.who span{padding:10px 12px;border-top:1px solid var(--line)}
+.who span:nth-child(-n+2){border-top:0}
+.who span:nth-child(even){text-align:center;font-weight:700}
+.who .me{color:var(--sky-d)} .who .par{color:var(--rose)} .who .co{color:var(--leaf)}
+
+/* compare */
+.cmp{border:1px solid var(--frame);border-radius:6px;background:var(--paper);overflow:hidden;font-size:.84rem}
+.cmp-row{display:grid;grid-template-columns:6em minmax(0,1fr) minmax(0,1fr);border-top:1px solid var(--line)}
+.cmp-row:first-child{border-top:0}
+.cmp-row span{padding:9px 8px;line-height:1.55;min-width:0}
+.cmp-row span:first-child{color:var(--sub);font-size:.76rem}
+.cmp-row.head span{font-weight:700}
+.cmp-row .pick{background:var(--sky-soft)}
+.cmp-row small{color:var(--sub);font-size:.74rem}
+.warn{color:var(--rose)}
+
+/* faq */
+details{background:var(--paper);border:1px solid var(--frame);border-radius:6px;padding:0 16px}
+summary{cursor:pointer;list-style:none;padding:13px 0;font-weight:700;display:flex;gap:10px;align-items:flex-start}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"Q";font-family:var(--f-disp);color:var(--sky-d);font-size:1.05rem;line-height:1.7}
+summary::after{content:"＋";margin-left:auto;color:var(--sky-d)}
+details[open] summary::after{content:"−"}
+details p{padding:0 0 14px 1.5em;color:var(--sub);font-size:.9rem}
+.faq{display:flex;flex-direction:column;gap:8px}
+.close{background:var(--sky);color:var(--onsky);border-radius:6px;padding:24px 20px;display:flex;flex-direction:column;gap:10px}
+.close h2{border-bottom-color:rgba(15,42,56,.25)} .close h2::after{background:var(--onsky)}
+.sig{font-family:var(--f-disp);text-align:right;font-size:1.05rem}
+
+/* lists */
+.list{background:var(--paper);border:1px solid var(--frame);border-radius:6px;display:flex;flex-direction:column}
+.list > *{padding:12px 16px;border-top:1px solid var(--line)}
+.list > *:first-child{border-top:0}
+.list small{display:block;color:var(--sub);font-size:.78rem}
+.check label{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start;cursor:pointer}
+.check input{width:18px;height:18px;margin:5px 0 0;accent-color:var(--sky-d)}
+.check .when{display:block;font-family:var(--f-disp);font-weight:700;font-size:.86rem;color:var(--sky-d)}
+.check input:checked + span{color:var(--sub);text-decoration:line-through}
+.frame{counter-reset:f;display:flex;flex-direction:column;gap:8px}
+.frame > div{position:relative;padding-left:44px}
+.frame > div::before{counter-increment:f;content:counter(f);position:absolute;left:16px;top:16px;font-family:var(--f-disp);font-weight:700;font-size:1.2rem;color:var(--sky-d)}
+.frame small{display:block;color:var(--sub);font-size:.84rem}
+
+/* english path */
+.path{display:flex;flex-direction:column;gap:0;position:relative}
+.ms{display:grid;grid-template-columns:5.6em minmax(0,1fr);gap:12px;align-items:center;padding:10px 0;border-top:1px dashed var(--frame)}
+.ms:first-child{border-top:0}
+.ms .lv{font-family:var(--f-disp);font-weight:700;font-size:1.05rem;color:var(--sky-d);line-height:1.3}
+.ms .lv small{display:block;font-family:var(--f-body);font-size:.7rem;color:var(--sub);font-weight:400}
+.ms .meter{height:8px;border-radius:3px;background:var(--bg);position:relative;overflow:hidden;margin-top:6px}
+.ms .meter i{position:absolute;inset:0 auto 0 0;width:var(--w);background:var(--sky)}
+.ms .t{font-size:.88rem}
+.phases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.phases .card{padding:12px;gap:4px}
+.phases .num{font-size:1.05rem;color:var(--sky-d)}
+.phases small{font-size:.74rem;color:var(--sub);line-height:1.55}
+
+/* learn */
+.concept h3{font-family:var(--f-disp);color:var(--sky-d);font-size:1.05rem}
+.concept .ex{background:var(--bg);border-radius:4px;padding:8px 12px;font-size:.86rem;color:var(--sub)}
+.voice q{font-family:var(--f-disp);font-weight:700;font-size:1.02rem;line-height:1.7}
+.voice a{color:var(--sky-d);font-size:.8rem}
+.thread{border-left:3px solid var(--c);padding-left:14px;display:flex;flex-direction:column;gap:8px}
+.thread .ttl{font-family:var(--f-disp);font-weight:700;font-size:1.1rem;color:var(--c)}
+.thread p{font-size:.9rem} .thread p b{font-size:.8rem;color:var(--sub);margin-right:6px}
+.paper{border-left:3px solid var(--c)}
+.paper dl{display:grid;grid-template-columns:4.6em minmax(0,1fr);gap:4px 10px;margin:0;font-size:.88rem}
+.paper dt{color:var(--sub)} .paper dd{margin:0}
+.fact{display:grid;grid-template-columns:5.4em minmax(0,1fr);gap:2px 10px;font-size:.82rem;margin:0}
+.fact dt{color:var(--sub)} .fact dd{margin:0}
+
+footer{font-size:.74rem;color:var(--sub);line-height:1.6;margin-top:56px}
+
+/* money column */
+.sum{gap:14px}
+.sum3{margin:0;padding:0;list-style:none;counter-reset:n;display:flex;flex-direction:column;gap:8px}
+.sum3 li{counter-increment:n;position:relative;padding-left:30px;font-size:.94rem;line-height:1.7}
+.sum3 li::before{content:counter(n);position:absolute;left:0;top:1px;width:22px;height:22px;border-radius:50%;background:var(--sky-d);color:#fff;font-size:.78rem;font-weight:700;display:grid;place-items:center}
+h2 .sn{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--sky-d);color:var(--sky-d);font-size:.95rem;margin-right:10px;vertical-align:2px}
+details.more{border:0;padding:0;background:transparent;border-top:1px dashed var(--frame)}
+details.more summary{padding:10px 0 0;font-size:.82rem;font-weight:500;color:var(--sky-d)}
+details.more summary::before{content:none}
+details.more summary::after{content:"＋";margin-left:6px}
+details.more[open] summary::after{content:"−"}
+details.more .more-in{padding-top:10px;display:flex;flex-direction:column;gap:12px}
+details.more .more-in p{padding:0}
+.paycal{display:flex;flex-direction:column}
+.paycal div{display:grid;grid-template-columns:4.6em minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line);font-size:.9rem}
+.paycal div:first-child{border-top:0}
+.paycal .num{color:var(--sky-d)} .paycal i{font-style:normal;font-weight:700}
+/* mv */
+.mv{display:flex;flex-direction:column;gap:8px;padding-top:12px;border-top:1px dashed var(--frame)}
+.mv-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-weight:700}
+.mv-h .num{font-size:1.3rem;white-space:nowrap}
+.mv .kv{font-size:.84rem}
+/* pair */
+.pair{display:flex;flex-direction:column;gap:6px;padding-top:12px;border-top:1px dashed var(--frame)}
+.pair-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:.9rem}
+.pair-d{font-family:var(--f-disp);font-weight:700;color:var(--sky-d);white-space:nowrap}
+.pair .bar{grid-template-columns:5.6em minmax(0,1fr)}
+.pair .track{height:20px}
+/* anshin */
+.anz{flex-direction:row;gap:14px;align-items:flex-start}
+.anz-n{flex:0 0 32px;height:32px;border-radius:50%;background:var(--sky-soft);color:var(--sky-d);display:grid;place-items:center;font-size:1.05rem}
+.anz b{display:block;font-size:1rem;margin-bottom:2px}
+.anz p{font-size:.9rem;color:var(--ink)}
+.anz a{display:inline-block;margin-top:6px;font-size:.8rem;color:var(--sky-d)}
+/* stay scale */
+.scale{background:var(--paper);border:1px solid var(--frame);border-radius:6px;padding:18px 12px 12px;position:relative}
+.scale-line{position:absolute;left:12.5%;right:12.5%;top:27px;border-top:1.5px dashed var(--frame)}
+.scale-pts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));position:relative}
+.scale-pts div{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px}
+.scale-pts i{width:18px;height:18px;border-radius:50%;background:var(--paper);border:1.5px solid var(--sky-d);margin-bottom:4px}
+.scale-pts .on i{background:var(--sky-d);box-shadow:0 0 0 4px var(--sky-soft)}
+.scale-pts b{font-size:.8rem;line-height:1.4} .scale-pts small{font-size:.68rem;color:var(--sub);line-height:1.4}
+.scale-pts .on b{color:var(--sky-d)}
+.scale-ends{display:flex;justify-content:space-between;font-size:.7rem;color:var(--sub);margin-top:10px;border-top:1px solid var(--line);padding-top:6px}
+.scale-ends span::before{content:"← "} .scale-ends span:last-child::before{content:""} .scale-ends span:last-child::after{content:" →"}
+
+details.uni{padding:0;border:1px solid var(--frame);border-radius:6px;background:var(--paper)}
+details.uni.main{border:1.5px solid var(--sky-d)}
+details.uni summary{display:block;padding:16px 18px 12px;font-weight:400}
+details.uni p{padding:0;color:inherit;font-size:inherit} details.uni .meta{font-size:.8rem;color:var(--sub)} details.uni .uni-memo{font-size:.86rem}
+details.uni summary::before,details.uni summary::after{content:none}
+.uni-top h3{margin-top:4px}
+.uni-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.uni-stats div{display:flex;flex-direction:column;gap:1px;padding:0 6px;border-left:1px solid var(--line);min-width:0}
+.uni-stats div:first-child{border-left:0;padding-left:0}
+.uni-stats small{font-size:.68rem;color:var(--sub);font-weight:400}
+.uni-stats b{font-size:.8rem;line-height:1.45}
+.uni-more{display:flex;justify-content:center;align-items:center;gap:6px;margin-top:10px;font-size:.76rem;font-weight:500;color:var(--sky-d)}
+.uni-more::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px)}
+details.uni[open] .uni-more{font-size:0}
+details.uni[open] .uni-more::before{content:"とじる";font-size:.76rem}
+details.uni[open] .uni-more::after{transform:rotate(-135deg) translateY(-2px)}
+.uni-body{padding:0 18px 18px;display:flex;flex-direction:column;gap:12px}
+.uni-body dl{display:grid;grid-template-columns:5.4em minmax(0,1fr);gap:8px 10px;margin:0;font-size:.86rem;border-top:1px dashed var(--frame);padding-top:12px}
+.uni-body dt{color:var(--sub)} .uni-body dd{margin:0}
+.uni-memo{background:var(--sky-soft);border-radius:4px;padding:10px 12px;font-size:.86rem}
+.uni-memo::before{content:"ひとこと　";font-weight:700;color:var(--sky-d)}
+.bathkey{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.76rem;color:var(--sub)}
+
+/* bottom nav */
+.bnav{position:fixed;left:0;right:0;bottom:0;z-index:20;pointer-events:none;padding:0 max(10px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(10px, env(safe-area-inset-left, 0px))}
+.bnav-in{pointer-events:auto;max-width:540px;margin:0 auto;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));height:68px;padding:0 6px;background:var(--paper);border:1.5px solid var(--frame);border-radius:28px;box-shadow:0 6px 18px color-mix(in srgb,var(--sky-d) 18%,transparent)}
+.bnav a{--t:var(--sky-d);--ts:var(--sky-soft);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:var(--sub);font-size:.66rem;font-weight:500;position:relative;min-width:0;-webkit-tap-highlight-color:transparent}
+.bnav a[data-nav="plan"]{--t:var(--rose);--ts:var(--rose-soft)}
+.bnav a[data-nav="money"]{--t:var(--sun);--ts:var(--sun-soft)}
+.bnav a[data-nav="schools"]{--t:var(--sky-d);--ts:var(--sky-soft)}
+.bnav a[data-nav="prep"]{--t:var(--leaf);--ts:var(--leaf-soft)}
+.bnav a[data-nav="learn"]{--t:var(--lilac);--ts:var(--lilac-soft)}
+
+
+
+
+.bnav svg{width:26px;height:26px;overflow:visible;filter:saturate(.85);opacity:.92;transition:filter .2s ease,opacity .2s ease,transform .25s ease}
+.bnav .c1{fill:var(--t)}.bnav .c2{fill:var(--ts)}.bnav .c3{fill:var(--ink)}.bnav .cw{fill:var(--paper)}.bnav .ca{fill:var(--sun)}
+.bnav a[data-nav="money"] .ca,.bnav a[data-nav="money"] .c1{fill:var(--sun)}
+.bnav .s1{fill:none;stroke:var(--t);stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.bnav .ic{display:grid;place-items:center;width:42px;height:38px;border-radius:50%;border:2px solid transparent;transition:background .2s ease,transform .25s cubic-bezier(.34,1.56,.64,1),border-color .2s ease}
+.bnav a[aria-current="page"] .ic{width:48px;height:48px;background:var(--ts);border-color:var(--t);transform:translateY(-10px);box-shadow:0 5px 12px color-mix(in srgb,var(--t) 30%,transparent)}
+.bnav a[aria-current="page"] svg{filter:none;opacity:1;transform:scale(1.08)}
+.bnav a[aria-current="page"]{margin-bottom:-6px}
+.bnav a:not([aria-current]):hover svg{filter:saturate(.9);opacity:1}
+.bnav a[aria-current="page"]{color:var(--t);font-weight:700}
+
+
+@media (prefers-reduced-motion: no-preference){ .bnav a[aria-current="page"] .ic{animation:pop .35s cubic-bezier(.34,1.56,.64,1)} @keyframes pop{0%{transform:scale(.7)}100%{transform:scale(1)}} }
+
+@media (prefers-reduced-motion: no-preference){ .view:not([hidden]){animation:fade .3s ease} @keyframes fade{from{opacity:.4}to{opacity:1}} }
+
+
+:root{--b1:#2A729C;--b1o:#2A729C;--b1t:#fff;--b2:#A9D5E8;--b2o:#2A729C;--b2t:#24323C;--b3:#DCEEF5;--b3o:#4A8DB3;--b3t:#24323C;
+--mu:#E3BF73;--muo:#9C6A1E;--mut:#24323C;--ro:#E2B3C3;--roo:#A0566F;--rot:#24323C;--gy:#C9D0D4;--gyo:#77838A;--gyt:#24323C;
+--l1:#2A729C;--l2:#A86F1E;--dg:#2F8A5A;--dgy:#77838A;--g1:#3E7D57;--g1o:#3E7D57;--g1t:#fff;--g2:#A9CFB4;--g2o:#3E7D57;--g2t:#24323C;--g3:#DCEBE0;--g3o:#5E9A73;--g3t:#24323C}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--b1:#5AAAD6;--b1o:#5AAAD6;--b1t:#0F2A38;--b2:#2F7499;--b2o:#7FC0DB;--b2t:#ECF1F3;--b3:#22485C;--b3o:#7FC0DB;--b3t:#ECF1F3;--mu:#6A4F22;--muo:#E0BE6E;--mut:#ECF1F3;--ro:#7A4A5E;--roo:#E8A1B9;--rot:#ECF1F3;--gy:#3A464D;--gyo:#9AA7AF;--gyt:#ECF1F3;--l1:#5AAAD6;--l2:#D69A45;--dg:#5BC08A;--dgy:#9AA7AF}}
+:root[data-theme="dark"]{--b1:#5AAAD6;--b1o:#5AAAD6;--b1t:#0F2A38;--b2:#2F7499;--b2o:#7FC0DB;--b2t:#ECF1F3;--b3:#22485C;--b3o:#7FC0DB;--b3t:#ECF1F3;--mu:#6A4F22;--muo:#E0BE6E;--mut:#ECF1F3;--ro:#7A4A5E;--roo:#E8A1B9;--rot:#ECF1F3;--gy:#3A464D;--gyo:#9AA7AF;--gyt:#ECF1F3;--l1:#5AAAD6;--l2:#D69A45;--dg:#5BC08A;--dgy:#9AA7AF}
+.k-b1{fill:var(--b1);stroke:var(--b1o)} .k-b2{fill:var(--b2);stroke:var(--b2o)} .k-b3{fill:var(--b3);stroke:var(--b3o)}
+.k-mu{fill:var(--mu);stroke:var(--muo)} .k-g1{fill:var(--g1);stroke:var(--g1o)} .k-g2{fill:var(--g2);stroke:var(--g2o)} .k-g3{fill:var(--g3);stroke:var(--g3o)} .k-ro{fill:var(--ro);stroke:var(--roo)} .k-gy{fill:var(--gy);stroke:var(--gyo)}
+.chart text.t-b1{fill:var(--b1t)} .chart text.t-b2{fill:var(--b2t)} .chart text.t-b3{fill:var(--b3t)} .chart text.t-mu{fill:var(--mut)} .chart text.t-g1{fill:var(--g1t)} .chart text.t-g2{fill:var(--g2t)} .chart text.t-g3{fill:var(--g3t)} .chart text.t-ro{fill:var(--rot)} .chart text.t-gy{fill:var(--gyt)}
+.ckey i{border:1px solid var(--o,var(--c));box-sizing:border-box}
+:root{--c1:#3A8DC0;--c2:#C5872C;--c3:#A9618F;--c4:#3FA06C;--s1:#3A8DC0;--s2:#8CC8E0;--s3:#D2E9F2;--rs:#D8A3B6;--grid:#E6E8E6;--axis:#9AA5AC}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--c1:#4A9CCB;--c2:#C08230;--c3:#B06C98;--c4:#43A270;--s1:#5AAAD6;--s2:#2F7499;--s3:#22485C;--rs:#9A6680;--grid:#2E3B43;--axis:#7F8E97}}
+:root[data-theme="dark"]{--c1:#4A9CCB;--c2:#C08230;--c3:#B06C98;--c4:#43A270;--s1:#5AAAD6;--s2:#2F7499;--s3:#22485C;--rs:#9A6680;--grid:#2E3B43;--axis:#7F8E97}
+.chart{width:100%;height:auto;display:block;overflow:visible}
+.chart text{font-family:var(--f-body);fill:var(--sub);font-size:9.5px}
+.chart .tx-ink{fill:var(--ink)} .chart .tx-b{font-weight:700}
+.chart .hit{fill:transparent;cursor:pointer}
+.chart .hit:hover,.chart .hit.on{fill:var(--ink);fill-opacity:.06}
+.chart .xh{stroke:var(--ink);stroke-width:1;stroke-dasharray:2 2;opacity:0;pointer-events:none}
+.chart-wrap{position:relative}
+.ctip{position:fixed;z-index:40;pointer-events:none;background:var(--paper);color:var(--ink);border:1px solid var(--frame);border-radius:6px;padding:6px 9px;font-size:.78rem;line-height:1.5;box-shadow:0 4px 14px rgba(0,0,0,.12);max-width:220px;opacity:0;transition:opacity .12s}
+.ctip.show{opacity:1}
+.ckey{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.76rem;color:var(--sub)}
+.ckey span{display:inline-flex;align-items:center;gap:5px}
+.ckey i{width:10px;height:10px;border-radius:2px;background:var(--c);display:inline-block}
+.ckey i.ln{height:2px;border-radius:1px}
+.ctable{font-size:.8rem}
+.wpt{display:grid;grid-template-columns:minmax(0,1fr) auto 8.2em;border:1px solid var(--frame);border-radius:6px;background:var(--paper);overflow:hidden;font-size:.86rem}
+.wpt > span{padding:10px 10px;border-top:1px solid var(--line);display:block;min-width:0}
+.wpt > span.h{border-top:0;font-size:.72rem;color:var(--sub);font-weight:700;background:var(--bg);padding-block:6px}
+.wpt .amt{font-family:var(--f-disp);font-weight:700;text-align:right;white-space:nowrap}
+.wpt .amt.h{justify-content:flex-end}
+.who-chip{display:inline-flex;align-items:center;gap:5px;font-size:.76rem;font-weight:700;line-height:1.3}
+.who-chip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c);flex:0 0 8px}
+.wpt small{display:block;color:var(--sub);font-size:.72rem;line-height:1.5}
+
+.dlist{display:flex;flex-direction:column;margin-top:6px}
+.drow{display:grid;grid-template-columns:minmax(0,1fr) auto 3em;gap:8px;align-items:baseline;padding:7px 0;border-top:1px solid var(--line);font-size:.86rem}
+.drow:first-child{border-top:0}
+.drow span{display:flex;align-items:center;gap:7px} .drow i{width:10px;height:10px;border-radius:2px;background:var(--c);border:1px solid var(--o,var(--c));box-sizing:border-box;flex:0 0 10px}
+.drow em{font-style:normal;color:var(--sub);text-align:right;font-size:.78rem}
+
+.paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.paths .card{padding:12px;gap:4px}
+.paths .num{font-size:1.6rem;line-height:1.1} .paths .num small{font-size:.75rem;font-family:var(--f-body)}
+.paths b{font-size:.8rem;line-height:1.45}
+.pdots{display:flex;flex-direction:column;gap:2px;margin-top:4px}
+.pdots span{font-size:.7rem;color:var(--sub);display:flex;align-items:center;gap:5px}
+.pdots span::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c);flex:0 0 7px}
+
+.ic2{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.mvc{gap:12px}
+.scn{border:1px solid var(--line);border-radius:6px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.scn.pick{border-color:var(--frame);background:var(--sky-soft)}
+.scn-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.scn-h .tot{margin-left:auto;font-size:1.25rem;color:var(--sky-d);white-space:nowrap}
+.mrow{display:grid;grid-template-columns:3.4em minmax(0,1fr);gap:8px;align-items:start}
+.mwho{display:flex;flex-direction:column;align-items:center;gap:0;color:var(--sky-d);font-size:.72rem;font-weight:700;padding-top:2px}
+.mwho .ic2{width:26px;height:26px}
+.mlegs{display:flex;flex-direction:column;gap:6px}
+.leg{display:grid;grid-template-columns:auto auto minmax(0,1fr);grid-template-rows:auto auto;column-gap:4px;align-items:center;font-size:.84rem;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+.leg .pl{display:inline-flex;align-items:center;gap:3px;color:var(--ink);min-width:0}
+.leg .pl .ic2{color:var(--sub)}
+.leg .ar{color:var(--sky-d);display:inline-flex}
+.leg .lc{grid-column:1/-1;justify-self:end;font-size:.82rem;font-weight:700;display:inline-flex;align-items:center;gap:5px}
+.leg .lc::before,.paykey span::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--pc)}
+.lc.me,.paykey .me{--pc:var(--l1)} .lc.co,.paykey .co{--pc:var(--dg)}
+.diff{display:flex;align-items:baseline;justify-content:center;gap:8px;font-size:.82rem;color:var(--sub)}
+.diff b{font-size:1.35rem;color:var(--sky-d)}
+.paykey{display:flex;gap:14px;font-size:.76rem;color:var(--sub)}
+.paykey span{display:inline-flex;align-items:center;gap:5px}
+ul.dots.small li{font-size:.86rem}
+
+.qa-fab{position:fixed;right:max(16px, env(safe-area-inset-right, 0px));bottom:calc(var(--navh) + 14px + env(safe-area-inset-bottom, 0px));z-index:19;font:inherit;font-size:.82rem;font-weight:700;color:#fff;background:var(--b1);border:0;border-radius:999px;padding:9px 16px;box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer}
+.qa-ask{font:inherit;font-size:.78rem;color:var(--sky-d);background:transparent;border:1px solid var(--frame);border-radius:999px;padding:3px 12px;align-self:flex-start;cursor:pointer}
+.qa-open{font:inherit;font-size:.9rem;font-weight:700;color:#fff;background:var(--b1);border:0;border-radius:6px;padding:10px 16px;align-self:flex-start;cursor:pointer}
+.qa-sheet{position:fixed;inset:0;z-index:50;background:rgba(15,30,40,.35);display:flex;align-items:flex-end;justify-content:center}
+.qa-sheet[hidden]{display:none}
+.qa-panel{background:var(--paper);width:100%;max-width:560px;border-radius:12px 12px 0 0;padding:16px max(16px, env(safe-area-inset-right, 0px)) calc(18px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));display:flex;flex-direction:column;gap:10px}
+.qa-head{display:flex;justify-content:space-between;align-items:center}
+.qa-x{font:inherit;font-size:1.3rem;background:none;border:0;color:var(--sub);cursor:pointer;line-height:1}
+.qa-panel textarea,.qa-reply textarea{font:inherit;font-size:16px;width:100%;border:1px solid var(--frame);border-radius:6px;padding:10px;background:var(--bg);color:var(--ink);resize:vertical}
+.qa-btns{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.qa-send{font:inherit;font-weight:700;color:#fff;background:var(--b1);border:0;border-radius:6px;padding:9px 20px;cursor:pointer}
+.qa-send:disabled{opacity:.5}
+.qa-line{font-size:.86rem;font-weight:700;color:var(--dg);border:1px solid var(--dg);border-radius:6px;padding:8px 14px;text-decoration:none}
+.qa-item{background:var(--paper);border:1px solid var(--frame);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.qa-item .q{font-size:.95rem;white-space:pre-wrap}
+.qa-item .a{background:var(--sky-soft);border-radius:4px;padding:8px 10px;font-size:.9rem;white-space:pre-wrap}
+.qa-item .a::before{content:"さやかの返事　";font-weight:700;color:var(--sky-d)}
+.qa-reply{display:flex;flex-direction:column;gap:6px}
+.qa-reply button{font:inherit;font-size:.82rem;font-weight:700;color:var(--sky-d);background:transparent;border:1px solid var(--frame);border-radius:6px;padding:5px 12px;align-self:flex-start;cursor:pointer}
+.qa-fab:focus-visible,.qa-ask:focus-visible,.qa-open:focus-visible,.qa-send:focus-visible,.qa-line:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px}
+
+.place2{padding:0;overflow:hidden;gap:0}
+.place2 .vig{display:block;width:100%;height:auto;border-bottom:1px solid var(--frame)}
+.p-body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:2px}
+.p-when{align-self:flex-start;font-size:.7rem;font-weight:700;color:var(--sky-d);border:1px solid var(--frame);border-radius:999px;padding:0 8px;line-height:1.7}
+.p-body b{font-size:.98rem;line-height:1.4;margin-top:4px}
+.p-body small{color:var(--sub);font-size:.78rem;line-height:1.5}
+
+.hrows{display:flex;flex-direction:column;border:1px solid var(--frame);border-radius:6px;overflow:hidden}
+.hrow{padding:12px 14px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.hrow:first-child{border-top:0}
+.hk{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.hk b{font-size:.98rem}
+.hrow p{font-size:.88rem;color:var(--sub);line-height:1.7}
+:root{--bg:#F5F7FA;--line:#E1E6EC;--frame:#C5D6E8;--sky:#9CC3E6;--sky-d:#3F6FA5;--sky-soft:#EAF1F9;--sun:#6E77C9;--sun-soft:#ECEEFB;--rose:#8A6BBE;--rose-soft:#F1ECFA;--leaf:#2F8279;--leaf-soft:#E2F2EF;--onsky:#16263A;--b1:#3F6FA5;--b1o:#3F6FA5;--b1t:#fff;--b2:#B4CDEA;--b2o:#3F6FA5;--b2t:#24323C;--b3:#E3EDF8;--b3o:#5F8CC0;--b3t:#24323C;--g1:#2F7F77;--g1o:#2F7F77;--g1t:#fff;--g2:#A7DCD2;--g2o:#2F7F77;--g2t:#24323C;--g3:#E0F3EF;--g3o:#3E8C84;--g3t:#24323C;--mu:#C3C8F0;--muo:#5B63B0;--mut:#24323C;--ro:#DCD0F2;--roo:#7A5FB0;--rot:#24323C;--gy:#D7DEE7;--gyo:#6E7C8C;--gyt:#24323C;--l1:#3F6FA5;--l2:#7A5FB0;--dg:#2F8279;--dgy:#6E7C8C;--grid:#E4E9EF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141A22;--paper:#1C2430;--line:#2C3746;--frame:#3A5372;--sky:#8FB6E0;--sky-d:#9EC0EA;--sky-soft:#1E2C3D;--sun:#AAB1F0;--sun-soft:#262A4A;--rose:#C7B2EE;--rose-soft:#2E2740;--leaf:#8FD6CB;--leaf-soft:#1B3330;--onsky:#0F1C2C;--b1:#7FA8DA;--b1o:#7FA8DA;--b1t:#0F1C2C;--b2:#2E4E78;--b2o:#9EC0EA;--b2t:#ECF1F3;--b3:#1F334D;--b3o:#9EC0EA;--b3t:#ECF1F3;--g1:#5DB8AD;--g1o:#5DB8AD;--g1t:#0F1C2C;--g2:#24584F;--g2o:#8FD6CB;--g2t:#ECF1F3;--g3:#1B3B37;--g3o:#8FD6CB;--g3t:#ECF1F3;--mu:#3A3F78;--muo:#AAB1F0;--mut:#ECF1F3;--ro:#4A3A6E;--roo:#C7B2EE;--rot:#ECF1F3;--gy:#36414D;--gyo:#A3B0BE;--gyt:#ECF1F3;--l1:#7FA8DA;--l2:#B49BE6;--dg:#5DB8AD;--dgy:#A3B0BE;--grid:#2A3442}}
+:root[data-theme="dark"]{--bg:#141A22;--paper:#1C2430;--line:#2C3746;--frame:#3A5372;--sky:#8FB6E0;--sky-d:#9EC0EA;--sky-soft:#1E2C3D;--sun:#AAB1F0;--sun-soft:#262A4A;--rose:#C7B2EE;--rose-soft:#2E2740;--leaf:#8FD6CB;--leaf-soft:#1B3330;--onsky:#0F1C2C;--b1:#7FA8DA;--b1o:#7FA8DA;--b1t:#0F1C2C;--b2:#2E4E78;--b2o:#9EC0EA;--b2t:#ECF1F3;--b3:#1F334D;--b3o:#9EC0EA;--b3t:#ECF1F3;--g1:#5DB8AD;--g1o:#5DB8AD;--g1t:#0F1C2C;--g2:#24584F;--g2o:#8FD6CB;--g2t:#ECF1F3;--g3:#1B3B37;--g3o:#8FD6CB;--g3t:#ECF1F3;--mu:#3A3F78;--muo:#AAB1F0;--mut:#ECF1F3;--ro:#4A3A6E;--roo:#C7B2EE;--rot:#ECF1F3;--gy:#36414D;--gyo:#A3B0BE;--gyt:#ECF1F3;--l1:#7FA8DA;--l2:#B49BE6;--dg:#5DB8AD;--dgy:#A3B0BE;--grid:#2A3442}
+
+.flow3{display:flex;flex-direction:column;gap:0;border:1px solid var(--frame);border-radius:6px;background:var(--paper);overflow:hidden}
+.flow3 > div{position:relative;padding:10px 12px 10px 44px;border-top:1px dashed var(--frame);display:flex;flex-direction:column;gap:2px}
+.flow3 > div:first-child{border-top:0}
+.flow3 .num{position:absolute;left:12px;top:10px;width:22px;height:22px;border-radius:50%;background:var(--b1);color:var(--b1t);display:grid;place-items:center;font-size:.78rem}
+.flow3 b{font-size:.9rem} .flow3 small{font-size:.8rem;color:var(--sub);line-height:1.6}
+
+.em{font-size:1.35rem;line-height:1;font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+.actors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.actor{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto;column-gap:8px;align-items:center;background:var(--bg);border-radius:8px;padding:8px 10px}
+.actor .em{grid-row:1/3}
+.actor b{font-size:.82rem} .actor small{font-size:.74rem;color:var(--sub);line-height:1.45}
+.actor:last-child:nth-child(odd){grid-column:1/-1}
+.qgrid,.vgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.qcard{position:relative;background:var(--sky-soft);border-radius:10px;padding:12px 12px 12px;display:flex;flex-direction:column;gap:4px;overflow:hidden}
+.qcard .qm{position:absolute;right:6px;top:-6px;font-family:var(--f-disp);font-size:2.6rem;font-weight:700;color:var(--b2);opacity:.7;line-height:1}
+.qcard b{font-size:.85rem;line-height:1.5;position:relative} .qcard small{font-size:.74rem;color:var(--sub);position:relative}
+.vcard{border:1px solid var(--frame);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:4px;background:var(--paper)}
+.vcard b{font-size:.86rem;line-height:1.5;color:var(--sky-d)} .vcard small{font-size:.76rem;color:var(--sub);line-height:1.6}
+.steps5{display:flex;align-items:center;justify-content:space-between;gap:2px;background:var(--bg);border-radius:10px;padding:12px 6px}
+.steps5 > div{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0;flex:1}
+.steps5 small{font-size:.66rem;font-weight:700;text-align:center;line-height:1.35}
+.steps5 i{font-style:normal;color:var(--sky-d);font-size:.8rem}
+.balist{display:flex;flex-direction:column;gap:6px}
+.ba{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:6px;align-items:center}
+.ba .b0{font-size:.8rem;color:var(--sub);background:var(--bg);border-radius:8px;padding:8px 10px;line-height:1.5}
+.ba .b1{font-size:.82rem;font-weight:700;color:var(--sky-d);background:var(--sky-soft);border-radius:8px;padding:8px 10px;line-height:1.5}
+.ba .ar{color:var(--sky-d);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:.78rem;font-weight:700;color:var(--sky-d);background:var(--sky-soft);border-radius:999px;padding:3px 12px}
+
+.sc-ill{display:block;width:100%;height:auto;border-radius:4px}
+.diff{display:flex;align-items:center;gap:3px;font-size:.8rem}
+.diff-k{font-weight:600;margin-right:6px}
+.diff .st{color:var(--line);font-size:1rem;line-height:1}
+.diff .st.on{color:var(--sky-d)}
+.diff-l{margin-left:8px;color:var(--sub)}
+.pitch{font-size:.9rem;margin:0}
+.srows{display:flex;flex-direction:column;gap:10px}
+.srow{display:grid;grid-template-columns:28px minmax(0,1fr);gap:8px;align-items:start;border-top:1px solid var(--line);padding-top:10px}
+.sri{font-size:1.15rem;line-height:1.4}
+.srow b{font-size:.84rem}
+.srb{font-size:.86rem;line-height:1.65;margin-top:2px}
+.srb small{color:var(--sub)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}
+.chip{font-size:.76rem;background:var(--sky-soft);color:var(--sky-d);border-radius:999px;padding:3px 10px}
+
+.chart .k-b1,.chart .k-b2,.chart .k-b3,.chart .k-mu,.chart .k-g1,.chart .k-g2,.chart .k-g3,.chart .k-ro,.chart .k-gy{stroke:none!important}
+.ckey i{border:0!important}
+:root{--bg:#F4EDDF;--paper:#FFFAF1;--line:#E7DCC7;--frame:#E0D2B8;--grid:#E6DCC8;--ink:#1E2747;--sub:#5D5E6C;--sky:#8FB0D6;--sky-d:#1F45A6;--sky-soft:#E3E9F2;--sun:#E3A91B;--sun-soft:#F9EDC8;--rose:#B8461A;--rose-soft:#FBE2D2;--leaf:#1C6A45;--leaf-soft:#DEEBDD;--onsky:#1E2747;--b1:#1F45A6;--b1o:#1F45A6;--b1t:#fff;--b2:#86A3D8;--b2o:#1F45A6;--b2t:#1E2747;--b3:#CCD8EE;--b3o:#4D6CB8;--b3t:#1E2747;--g1:#1E7A4C;--g1o:#1E7A4C;--g1t:#fff;--g2:#8DC7A3;--g2o:#1E7A4C;--g2t:#1E2747;--g3:#D7EBDC;--g3o:#2E8A5B;--g3t:#1E2747;--mu:#EDBE33;--muo:#A87C00;--mut:#1E2747;--ro:#F07A35;--roo:#E8601C;--rot:#1E2747;--gy:#DDD4C3;--gyo:#8A8170;--gyt:#1E2747;--l1:#1F45A6;--l2:#E8601C;--dg:#1E7A4C;--dgy:#8A8170;--c-blue:#1F45A6;--c-sky:#9DB8D9;--c-orange:#EF6A24;--c-yellow:#EDBE33;--c-green:#1E7A4C;--c-pink:#F4B7C5;--c-white:#FFFFFF;--c-cream:#F4EDDF}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#151A2C;--paper:#1D2338;--line:#2D3452;--frame:#394066;--grid:#2A3049;--ink:#F3EEE4;--sub:#B7B3C2;--sky:#6F8FCC;--sky-d:#A9BFF2;--sky-soft:#232B4C;--sun:#F2C94C;--sun-soft:#3A3322;--rose:#FF9C68;--rose-soft:#3D2A26;--leaf:#7FD3A4;--leaf-soft:#1E3529;--onsky:#11152A;--b1:#7E9FEA;--b1o:#7E9FEA;--b1t:#11152A;--b2:#3A5598;--b2o:#A9BFF2;--b2t:#F3EEE4;--b3:#27305C;--b3o:#A9BFF2;--b3t:#F3EEE4;--g1:#5FC18C;--g1o:#5FC18C;--g1t:#11152A;--g2:#2B6447;--g2o:#7FD3A4;--g2t:#F3EEE4;--g3:#1F3A2D;--g3o:#7FD3A4;--g3t:#F3EEE4;--mu:#E5B53A;--muo:#F2C94C;--mut:#11152A;--ro:#F2894D;--roo:#F2894D;--rot:#11152A;--gy:#3B3E55;--gyo:#A9A6B8;--gyt:#F3EEE4;--l1:#7E9FEA;--l2:#F2894D;--dg:#5FC18C;--dgy:#A9A6B8;--c-blue:#5E80D8;--c-sky:#7F9CC8;--c-orange:#EE7A3C;--c-yellow:#E5B53A;--c-green:#3E9A6A;--c-pink:#E9A6B6;--c-white:#F3EEE4;--c-cream:#1D2338}}
+:root[data-theme="dark"]{--bg:#151A2C;--paper:#1D2338;--line:#2D3452;--frame:#394066;--grid:#2A3049;--ink:#F3EEE4;--sub:#B7B3C2;--sky:#6F8FCC;--sky-d:#A9BFF2;--sky-soft:#232B4C;--sun:#F2C94C;--sun-soft:#3A3322;--rose:#FF9C68;--rose-soft:#3D2A26;--leaf:#7FD3A4;--leaf-soft:#1E3529;--onsky:#11152A;--b1:#7E9FEA;--b1o:#7E9FEA;--b1t:#11152A;--b2:#3A5598;--b2o:#A9BFF2;--b2t:#F3EEE4;--b3:#27305C;--b3o:#A9BFF2;--b3t:#F3EEE4;--g1:#5FC18C;--g1o:#5FC18C;--g1t:#11152A;--g2:#2B6447;--g2o:#7FD3A4;--g2t:#F3EEE4;--g3:#1F3A2D;--g3o:#7FD3A4;--g3t:#F3EEE4;--mu:#E5B53A;--muo:#F2C94C;--mut:#11152A;--ro:#F2894D;--roo:#F2894D;--rot:#11152A;--gy:#3B3E55;--gyo:#A9A6B8;--gyt:#F3EEE4;--l1:#7E9FEA;--l2:#F2894D;--dg:#5FC18C;--dgy:#A9A6B8;--c-blue:#5E80D8;--c-sky:#7F9CC8;--c-orange:#EE7A3C;--c-yellow:#E5B53A;--c-green:#3E9A6A;--c-pink:#E9A6B6;--c-white:#F3EEE4;--c-cream:#1D2338}
+
+.card,.uni{border-color:transparent!important;box-shadow:0 1px 0 rgba(30,39,71,.04)}
+.vig,.sc-ill{background:var(--c-cream)}
+.tag{border:0!important}
+
+.jump button{background:var(--paper)!important;border:0!important;border-radius:999px!important;padding:3px 12px!important}
+.qa-reply button{background:var(--sky-soft)!important;border:0!important}
+.hero-art{display:block;width:100%;height:auto;border-radius:8px;border:0!important}
+
+.vcard2{border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:4px}
+.vcard2 .vic{width:40px;height:40px;margin-bottom:2px}
+.vcard2 b{font-size:.86rem;line-height:1.5;color:var(--ink)} .vcard2 small{font-size:.76rem;color:var(--sub);line-height:1.6}
+
+:root{--sun-t:#7A5A00;--rose:#A33D14}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--sun-t:#F2C94C;--rose:#FF9C68}}
+:root[data-theme="dark"]{--sun-t:#F2C94C;--rose:#FF9C68}
+.kv{grid-template-columns:minmax(38%,1fr) minmax(0,auto)!important}
+.kv dd{overflow-wrap:anywhere}
+.stackbar > div:first-child{color:var(--b1t)!important}
+.val.in{color:var(--b1t)!important}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .qa-open{color:#11152A}}
+:root[data-theme="dark"] .qa-open{color:#11152A}
+.list.check .yr{font-family:var(--f-disp);font-weight:700;font-size:.95rem;color:var(--sky-d);padding:14px 4px 4px;border:0;background:transparent}
+.track:has(.fill[style*="var(--sky)"]) .val.in{color:#11152A!important}
+
+.kpis,.who,.cmp,details,.list,.scale,details.uni,.wpt,.qa-ask,.qa-item,.qa-reply button,.p-when,.hrows,.flow3,.vcard,.route span,.hero-art{border-color:transparent!important}
+.card details,.card .list,.card .hrows,.card .flow3,.card .wpt,.card .who,.card .cmp,.card .scale,.card .p-when{background:var(--bg)!important}
+.si{width:1.15em;height:1.15em;vertical-align:-.2em;margin-right:.35em;flex:0 0 auto}
+.sri .si{width:22px;height:22px;margin:0;display:block}
+.sri{line-height:1}
+.flow3 b .si{width:18px;height:18px}
+.gaps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:8px}
+.gaps div{background:var(--bg);border-radius:8px;padding:7px 6px;text-align:center;display:flex;flex-direction:column;gap:1px}
+.gaps span{font-size:.72rem;color:var(--sub)} .gaps b{font-family:var(--f-disp);font-size:.9rem}
+
+.term{all:unset;display:inline;cursor:pointer;color:inherit;font-weight:inherit;text-decoration:underline dotted var(--sky-d);text-decoration-thickness:2px;text-underline-offset:3px}
+.term:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px;border-radius:2px}
+.term::after{content:"?";display:inline-grid;place-items:center;width:1.05em;height:1.05em;margin-left:2px;border-radius:50%;background:var(--sky-soft);color:var(--sky-d);font-size:.7em;font-weight:700;vertical-align:.25em}
+
+.why3{display:flex;flex-direction:column;gap:12px;padding-block:20px}
+.why3 .why-eye{margin:0;font-size:.72rem;font-weight:700;letter-spacing:.12em;color:var(--sky-d)}
+.why3 .why-h{font-family:var(--f-disp);font-size:1.25rem;line-height:1.45;margin-top:-6px}
+.why-lead{margin:0;font-size:1.02rem;font-weight:700;line-height:1.7}
+.why-lead mark{background:linear-gradient(transparent 58%,color-mix(in srgb,var(--c-yellow) 60%,transparent) 58%);color:inherit;padding:0 2px}
+.why-art{width:100%;height:auto;display:block}
+.why-art .wl{font-size:9.5px;fill:var(--ink);font-weight:700}
+.why-art .wb{font-size:11px;fill:var(--sky-d)}
+.why-sub{margin:0;font-size:.9rem;line-height:1.8;color:var(--sub)}
+.why-sub b{color:var(--ink)}
+.why-q{position:relative;margin:6px 0 0;padding:18px 14px 16px;border-radius:12px;background:var(--sky-soft);text-align:center;font-family:var(--f-disp);font-weight:700;font-size:1.12rem;line-height:1.6;color:var(--ink)}
+.why-qm{position:absolute;left:10px;top:-14px;font-size:3rem;line-height:1;color:var(--c-orange);font-family:Georgia,serif}
+.why-steps{display:flex;flex-direction:column;background:var(--bg);border-radius:12px;padding:14px 12px}
+.why-step{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:start}
+.why-ic{width:44px;height:44px;display:block;background:var(--paper);border-radius:50%;padding:9px;box-sizing:border-box}
+.why-step b{display:block;font-size:.98rem;line-height:1.5;margin-top:3px}
+.why-step small{display:block;font-size:.82rem;line-height:1.7;color:var(--sub);margin-top:2px}
+.why-tag{display:inline-block;font-size:.7rem;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--t);color:#fff}
+.why-tag[style*="c-orange"]{background:var(--rose)}
+.why-arr{display:block;width:44px;height:18px;position:relative}
+.why-arr::before{content:"";position:absolute;left:50%;top:3px;width:9px;height:9px;border-right:2.5px solid var(--sky-d);border-bottom:2.5px solid var(--sky-d);transform:translateX(-50%) rotate(45deg)}
+.why-use{display:flex;flex-direction:column;gap:6px}
+.why-use > span{font-size:.78rem;font-weight:700;color:var(--sub)}
+.why-goal{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:center;background:var(--b1);color:var(--b1t);border-radius:12px;padding:14px}
+.why-goal .why-ic{background:transparent;padding:4px}
+.why-goal b{display:block;font-size:1rem;line-height:1.5}
+.why-goal small{display:block;font-size:.76rem;opacity:.92}
+.why-tag,.why-tag[style]{background:var(--paper)!important;color:var(--sky-d)}
+
+.term[aria-expanded="true"]::after{content:"×";background:var(--sky-d);color:var(--paper)}
+.term-box{margin:6px 0 10px;padding:12px 14px;border-radius:10px;background:var(--sky-soft);font-size:.86rem;line-height:1.75;color:var(--ink);list-style:none;animation:termIn .18s ease-out}
+.term-box b{display:block;font-size:.9rem;margin-bottom:2px;color:var(--sky-d)}
+.term-box br{display:none}
+.term-x{all:unset;display:block;margin-top:6px;font-size:.78rem;font-weight:700;color:var(--sky-d);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.term-x:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px}
+@keyframes termIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.term-box{animation:none}}
+
+.uni-body{gap:14px}
+.uni-body .sc-ill{border-radius:8px}
+.uni-body .srows{border-top:0}
+.ufit{display:flex;align-items:center;gap:10px;background:var(--bg);border-radius:10px;padding:10px 12px}
+.ufit-m{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--paper);flex:0 0 34px}
+.ufit small{display:block;font-size:.7rem;color:var(--sub)} .ufit b{font-size:.9rem}
+
+.why-arr{display:none!important}
+.why-steps{gap:22px;padding:18px 16px 20px}
+.why-step{position:relative;grid-template-columns:44px minmax(0,1fr);gap:14px;align-items:start}
+.why-step:not(:last-child)::before{content:"";position:absolute;left:21px;top:50px;bottom:-18px;border-left:2px dashed color-mix(in srgb,var(--sky-d) 55%,transparent)}
+.why-step .why-tag{margin-top:1px;line-height:1.5}
+.why-step b{margin-top:6px;font-size:1rem}
+.why-step small{margin-top:3px}
+
+.txc{display:flex;flex-direction:column;gap:12px}
+.tx-sum{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.tx-t{border-radius:10px;padding:10px 8px;display:flex;flex-direction:column;gap:1px;text-align:center}
+.tx-t small{font-size:.7rem;font-weight:700}
+.tx-t b{font-family:var(--f-disp);font-size:1.02rem;line-height:1.3}
+.tx-t span{font-size:.66rem;color:var(--sub);line-height:1.4}
+.tx-t.tx-cash{background:var(--sky-soft)} .tx-t.tx-cash small,.tx-t.tx-cash b{color:var(--sky-d)}
+.tx-t.tx-save{background:color-mix(in srgb,var(--c-green) 14%,var(--paper))} .tx-t.tx-save small,.tx-t.tx-save b{color:var(--leaf)}
+.tx-t.tx-par{background:color-mix(in srgb,var(--c-orange) 12%,var(--paper))} .tx-t.tx-par small,.tx-t.tx-par b{color:var(--rose)}
+.tx-list{display:flex;flex-direction:column;gap:8px}
+.tx-row{background:var(--bg);border-radius:10px;padding:11px 12px 12px;border-left:4px solid var(--k)}
+.tx-row.tx-cash{--k:var(--sky-d)} .tx-row.tx-save{--k:var(--leaf)} .tx-row.tx-par{--k:var(--rose)}
+.tx-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.tx-h b{font-size:.92rem;line-height:1.5}
+.tx-amt{font-family:var(--f-disp);font-weight:700;font-size:1rem;color:var(--k);white-space:nowrap}
+.tx-note{display:block;font-size:.7rem;font-weight:700;color:var(--k);margin-top:1px}
+.tx-row p{margin:6px 0 0;font-size:.82rem;line-height:1.75;color:var(--sub)}
+.tx-t b{font-size:.9rem;white-space:nowrap;letter-spacing:-.02em}.tx-t{padding:10px 4px}
+
+.shelf{display:flex;flex-direction:column;gap:10px}
+.shelf-sum{margin:0;font-size:.85rem;font-weight:700;color:var(--sky-d)}
+.bk{display:grid;grid-template-columns:64px minmax(0,1fr);gap:14px;background:var(--paper);border-radius:12px;padding:14px}
+.bk-cover{position:relative;width:60px;height:84px}
+.bk-cover svg{width:60px;height:84px;display:block;border-radius:3px;box-shadow:3px 3px 0 color-mix(in srgb,var(--ink) 12%,transparent)}
+.bk-ribbon{position:absolute;right:8px;top:-4px;width:9px;height:0;background:var(--c-pink);transition:height .25s ease;clip-path:polygon(0 0,100% 0,100% 100%,50% 82%,0 100%)}
+.bk[data-state="reading"] .bk-ribbon{height:34px}
+.bk-stamp{position:absolute;left:50%;top:44%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:#B83A12;color:#fff;display:grid;place-items:center;font-weight:700;font-size:.78rem;letter-spacing:.05em;transform:scale(0) rotate(-30deg);opacity:0;transition:transform .28s cubic-bezier(.3,1.6,.5,1),opacity .2s;box-shadow:0 0 0 3px var(--paper)}
+.bk[data-state="done"] .bk-stamp{transform:scale(1) rotate(-14deg);opacity:1}
+.bk-body{display:flex;flex-direction:column;gap:2px;min-width:0}
+.bk-body b{font-size:.98rem} .bk-body small{color:var(--sub);font-size:.8rem} .bk-body .note{margin-top:4px}
+.bk-acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.bk-btn{all:unset;cursor:pointer;font-size:.76rem;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--bg);color:var(--sky-d)}
+.bk-btn:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px}
+.bk-btn[aria-pressed="true"]{background:var(--sky-d);color:var(--paper)}
+.bk-btn[data-act="done"][aria-pressed="true"]{background:#B83A12;color:#fff}
+.bk-date{font-size:.72rem;color:var(--sub);min-height:1em}
+.shelf.ro .bk-acts{display:none}
+@media (prefers-reduced-motion:reduce){.bk-stamp,.bk-ribbon{transition:none}}
+
+.wh-grp{display:flex;flex-direction:column;gap:4px;margin-top:8px}
+.wh-grp small{font-size:.74rem;font-weight:700;color:var(--sub)}
+.wh-all{display:flex;flex-direction:column;gap:10px;font-size:.84rem}
+.wh-all b{display:block;font-size:.84rem;margin-bottom:2px}
+#p-wh .why-steps{margin-top:6px}
+.why-step small b{display:inline!important;font-size:inherit!important;margin:0!important;color:var(--ink)}
+
+.evt{display:flex;flex-direction:column;gap:8px;border-left:4px solid var(--sky-d)}
+.evt-top{display:flex;gap:6px;flex-wrap:wrap}
+.evt-h{font-family:var(--f-disp);font-size:1.12rem;line-height:1.45}
+.evt-when{margin:0;font-size:.9rem}
+.evt-links{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:4px}
+.evt-btn{display:inline-block;padding:9px 16px;border-radius:999px;background:var(--sky-d);color:var(--paper);font-weight:700;font-size:.88rem;text-decoration:none}
+.evt-btn:focus-visible,.evt-link:focus-visible{outline:2px solid var(--sky-d);outline-offset:2px}
+.evt-link{font-size:.84rem;font-weight:700;color:var(--sky-d)}
+
+.rt-wrap{overflow-x:auto;margin-top:6px}
+.rt{width:100%;border-collapse:collapse;font-size:.84rem}
+.rt th,.rt td{padding:9px 6px;text-align:left;vertical-align:top;border-top:1px solid var(--line)}
+.rt thead th{border-top:0;font-size:.72rem;color:var(--sub);font-weight:700;line-height:1.45}
+.rt tbody th{font-weight:700;font-size:.8rem}
+.rt td b{display:block;font-family:var(--f-disp);font-size:1rem}
+.rt td small{display:block;font-size:.72rem;color:var(--sub)}
+.rt tr.base{background:var(--sky-soft)}
+.rt tr.base th,.rt tr.base td b{color:var(--sky-d)}
+.rt th:first-child{width:24%}.rt td b{font-size:.9rem;white-space:nowrap}.rt td small{white-space:nowrap}
+
+.qa-fab,.qa-ask{display:none!important}
+.cmp.cmp2 .cmp-row{grid-template-columns:5.2em 1fr 1fr}
+.cmp.cmp3 .cmp-row{grid-template-columns:5em 1fr 1fr 1fr}
+.cmp.cmp4 .cmp-row{grid-template-columns:4.6em repeat(4,minmax(0,1fr));font-size:.8rem}
+.src a{color:var(--sky-d);word-break:break-all}
+</style>
+<div class="wrap">
+<main class="view" data-view="home" hidden>
+<header class="hero">
+  <p class="to">TAIWAN ROUTE</p>
+  <h1>台湾で、<em>風土</em>と<br><em>人のものの見方</em>を学ぶ。</h1>
+  <svg class="hero-art" viewBox="0 0 360 150" aria-hidden="true"><rect width="360" height="150" fill="var(--c-cream)"/><circle cx="320" cy="28" r="13" fill="var(--c-yellow)"/><ellipse cx="40.0" cy="24.0" rx="4.7" ry="5.8" fill="var(--c-blue)"/><ellipse cx="48.1" cy="25.4" rx="4.7" ry="5.8" fill="var(--c-blue)"/><ellipse cx="56.2" cy="24.0" rx="4.7" ry="5.8" fill="var(--c-blue)"/><path transform="translate(150 22) scale(0.8)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/><path transform="translate(178 34) scale(0.6)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/><path d="M0 124 C70 112 130 132 190 120 S300 108 360 120 L360 150 L0 150Z" fill="var(--c-sky)"/><path d="M0 104 L40 70 L70 92 L110 54 L150 96 L170 82 L200 104Z" fill="var(--c-green)"/><path d="M34 112 C 90 70, 150 96, 206 64" fill="none" stroke="var(--c-blue)" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round"/><rect x="228" y="72" width="72" height="40" fill="var(--c-orange)"/><rect x="255.36" y="87.2" width="17.28" height="24.8" fill="var(--c-blue)"/><path d="M215.04 72 Q264.0 59.2 312.96 72 L318.96 62 Q264.0 47.2 209.04 62Z" fill="var(--c-pink)"/><circle cx="239.52" cy="90.0" r="5.040000000000001" fill="var(--c-yellow)"/><circle cx="288.48" cy="90.0" r="5.040000000000001" fill="var(--c-yellow)"/><line x1="214" y1="46" x2="214" y2="51" stroke="var(--ink)" stroke-width=".8"/><ellipse cx="214" cy="57" rx="5" ry="6" fill="var(--c-pink)"/><rect x="212" y="62.5" width="4" height="2" fill="var(--c-yellow)"/><line x1="316" y1="46" x2="316" y2="51" stroke="var(--ink)" stroke-width=".8"/><ellipse cx="316" cy="57" rx="5" ry="6" fill="var(--c-orange)"/><rect x="314" y="62.5" width="4" height="2" fill="var(--c-yellow)"/><circle cx="196" cy="89.0" r="7.2" fill="var(--c-blue)"/><path d="M184.3 116 C184.3 101.6 189.7 98.0 196 98.0 C202.3 98.0 207.7 101.6 207.7 116Z" fill="var(--c-blue)"/><path d="M167.0 116 Q176 125.0 185.0 116Z" fill="var(--c-white)"/><ellipse cx="176" cy="116" rx="9.0" ry="2.25" fill="var(--c-orange)"/><path d="M179.6 115 l5.4 -8.1" stroke="var(--c-yellow)" stroke-width="1.4"/><g fill="var(--c-blue)"><circle cx="34" cy="112" r="4.5"/><circle cx="206" cy="64" r="5"/></g><g font-family="Zen Kaku Gothic New, sans-serif" font-size="10.5" font-weight="700" fill="var(--ink)"><text x="16" y="132">川崎</text><text x="236" y="136">台湾</text></g></svg>
+  <p class="lead">建物・空間・都市といった「風土」が、人の感じ方やものの見方をどう形づくるのか。台湾に住みながら、英語と中国語の両方でそれを学ぶための計画です。</p>
+  <div class="kpis">
+    <div class="kpi"><span>入学</span><b class="num">2028<small>〜29年</small></b><span>中国語しだい</span></div>
+    <div class="kpi"><span>候補</span><b class="num">3<small>校</small></b><span>成功・清華・師範</span></div>
+    <div class="kpi"><span>奨学金</span><b class="num">17.7<small>万円〜/月</small></b><span>JASSOがとれれば</span></div>
+  </div>
+</header>
+<section id="h-why"><p class="eyebrow">WHY TAIWAN</p><h2>台湾に惹かれる理由</h2><div class="stack"><div class="card anz"><span class="anz-n num">1</span><div><b>人との距離感が、あったかい</b><p>近すぎず遠すぎず、でもみんな親切。お店の人とも、街の人とも、ちょうどいい距離で関われるのが心地よかった。</p></div></div><div class="card anz"><span class="anz-n num">2</span><div><b>風土が、暮らしのかたちに見える</b><p>騎楼（アーケードの歩道）、お廟の前の広場、市場。内でも外でもない「あいだの空間」が街じゅうにあって、人の距離感やふるまいをつくっている。研究したいことの現場に、毎日住める。</p></div></div><div class="card anz"><span class="anz-n num">3</span><div><b>ごはんがおいしい</b><p>外食の文化で、安くておいしい。お供えやお祭りのごはんは、研究の入口にもなる。</p></div></div><div class="card anz"><span class="anz-n num">4</span><div><b>学費が安く、奨学金も手厚い</b><p>国立大の学費は北大とほぼ同じか少し安い。台湾政府の奨学金がとれれば、学費も生活費もほぼまかなえる。</p></div></div><div class="card anz"><span class="anz-n num">5</span><div><b>町ごと、生活をリセットできる</b><p>住む町を変えたい気持ちがいちばん強い。言葉も景色も、毎日の当たり前がまるごと変わる。</p></div></div></div></section>
+<section id="h-pri"><p class="eyebrow">PRIORITY</p><h2>大事にしたいこと（順番）</h2><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>1. 台湾で暮らし、風土を研究する</b><span class="tag sky">いちばん</span></div><p>大学は「研究の中身が合うか」で選ぶ。お廟は題材の一つで、見たいのは空間と人のものの見方の関係</p></div><div class="hrow"><div class="hk"><b>2. 英語と中国語を、同じくらい</b></div><p>2027年は英語が主役、台湾に住んでからは中国語が主役。時期ごとに入れ替える</p></div><div class="hrow"><div class="hk"><b>3. 北欧・ヨーロッパで暮らす</b></div><p>修士の途中の交換留学（半年）と、修了後のホイスコーレ（年齢制限なし）でかなえる</p></div><div class="hrow"><div class="hk"><b>4. お金をなるべくかけない</b></div><p>いちばん下。1年遅らせて中国語をやってから入る案も選べる</p></div></div></div></section><section id="h-vs"><p class="eyebrow">COMPARE</p><h2>北大ルートとくらべると</h2><div class="cmp cmp2" role="table" aria-label="北大ルートと台湾ルートの比較"><div class="cmp-row head" role="row"><span role="columnheader"></span><span role="columnheader">北大ルート</span><span role="columnheader" class=pick>台湾ルート</span></div><div class="cmp-row" role="row"><span role="rowheader">入学</span><span>2029年4月</span><span class=pick>2028年9月〜2029年（検討中）</span></div><div class="cmp-row" role="row"><span role="rowheader">学ぶ言葉</span><span>日本語（英語の試験なし）</span><span class=pick>英語と中国語を同じくらい</span></div><div class="cmp-row" role="row"><span role="rowheader">期間</span><span>2年</span><span class=pick>3年前後（調査に半年）</span></div><div class="cmp-row" role="row"><span role="rowheader">研究の現場</span><span>夏や交換留学で通う</span><span class=pick>毎日そば（騎楼・市場・お廟）</span></div><div class="cmp-row" role="row"><span role="rowheader">学費（合計）</span><span>約135万円</span><span class=pick>約97〜145万円（師範大学）</span></div><div class="cmp-row" role="row"><span role="rowheader">奨学金</span><span>JASSOなど</span><span class=pick>JASSO（月17.7万円〜）か台湾政府＋大学の学費免除</span></div><div class="cmp-row" role="row"><span role="rowheader">ヨーロッパ</span><span>交換留学（2030年1〜5月）</span><span class=pick>2年目に交換留学（半年）＋修了後にホイスコーレ</span></div></div><p class="note">くわしい比較は「お金」と「大学」のページに。上海・香港とのくらべも「大学」にあります。</p></section>
+<section id="h-faq"><p class="eyebrow">Q&amp;A</p><h2>不安なこと</h2><div class="faq"><details><summary>3年も海外で大丈夫？</summary><p>寮に入れば最初から人の輪の中で暮らせます。台湾と日本は近く、東京からは片道3〜4時間。<b>熊本の実家には直行便があります</b>（チャイナエアラインの熊本〜台北が2026年夏から毎日、スターラックス航空の熊本〜台中が週3便）。まずは2027年の夏に数日「暮らすつもり」で過ごして、確かめてから決めます。</p></details><details><summary>中国語ゼロで入れるの？</summary><p>大学によります。<b>師範大学の英語の修士なら、英語で入れます</b>。<b>清華大学の人類学研究所は、英語（IELTS 6.5）と中国語（TOCFL B1）の両方が必須</b>なので、台湾の語学センターで半年〜1年学んでから、2029年2月（春）か9月（秋）の入学をねらいます。</p></details><details><summary>安全は？</summary><p>大きな事件は少なく、留学生も「とても安全」という声が多いです。気をつけたいのは詐欺とスリ、それに地震と台風。3か月以上住む人は在留届が義務で、日本台湾交流協会が窓口になります（くわしくは「準備」のページ）。</p></details><details><summary>お金は足りるの？</summary><p>寮に住んで3年かかる場合、奨学金なしで約450〜570万円、台湾政府の奨学金がとれれば約150〜270万円。北大ルート（2年・留学込みで約620〜830万円）より少なくすみます。くわしくは「お金」のページに。</p></details><details><summary>ヨーロッパのワーホリに間に合わなかったら？</summary><p>大丈夫です。修士の2年目に、日本以外の協定校へ半年の交換留学ができます（師範大学・清華大学とも、留学生も応募可）。修了後は、<b>年齢制限のないデンマークのホイスコーレ</b>に行く道もあります。ワーホリの年齢に合わせて急ぐ必要はありません。</p></details><details><summary>卒業したあとは？</summary><p>2026年から、台湾で学位をとった外国人は修了後に最長2年、就労許可なしで働けるようになりました。台湾で働く、日本に戻ってリサーチやデザインの仕事をする、ヨーロッパへ、から選べます。</p></details><details><summary>北大はあきらめるの？</summary><p>あきらめません。北大の院試（9月・1月）と台湾の出願（秋〜冬）は時期がずれているので、両方受けて、結果と気持ちで選べます。ただ、北大の入学手続きは2〜3月で、台湾の奨学金の結果（7月ごろ）より先に決める必要があります。</p></details></div></section>
+</main>
+<main class="view" data-view="plan" hidden><header class="vhead"><p class="eyebrow">PLAN</p><h1>台湾ルートの計画</h1><p class=lead>いつ何をするか。どの大学に入るかで、中国語の準備期間と入学の時期が変わります。</p><div class=jump><button type="button" data-jump="p-route">1 入学の時期</button><button type="button" data-jump="p-tl">2 年表</button><button type="button" data-jump="p-after">3 修了後</button></div></header><section id="p-sum"><div class="card sum"><p class="eyebrow">3行でいうと</p><ol class="sum3"><li><b>2027年は準備の年</b>。英語（IELTS 6.5）が主役、中国語はNHKラジオで。9〜10月にJASSOの奨学金に申込み</li><li><b>入学は3つの案から選ぶ</b>：師範大学 2028年9月（英語で）／清華大学 2029年2月（語学センターで半年）／清華大学 2029年9月（語学センターで1年）</li><li><b>ヨーロッパは、交換留学とホイスコーレで</b>。ワーホリの年齢に合わせて急がなくていい</li></ol></div></section><section id="p-route"><h2><span class="sn">1</span>入学の時期（3つの案）</h2><div class="stack"><div class="card" style="border-left:4px solid var(--sky-d)"><span class="tag sky" style="align-self:flex-start">英語で早く入る</span><b style="font-size:1.02rem">A. 2028年9月に師範大学（台湾語文学系・英語の修士）</b><p class="num" style="color:var(--sky-d);font-size:1rem">2028年7月まで働く・2031年夏に修了（30歳）</p><p style="font-size:.86rem">◎ 英語の授業だけで卒業できる課程。JASSOもねらえる。準備がいちばん短い<br>△ 人類学の学科ではない。風土や空間の研究を見てもらえる先生がいるかは、問い合わせの返事しだい</p></div><div class="card" style="border-left:4px solid var(--leaf)"><span class="tag leaf" style="align-self:flex-start">春入学</span><b style="font-size:1.02rem">B. 2029年2月に清華大学（人類学研究所）</b><p class="num" style="color:var(--leaf);font-size:1rem">2028年春に台湾へ・語学センターで半年</p><p style="font-size:.86rem">◎ 中身がいちばん合う（都市・空間、もの、芸術の人類学の先生がいる）。語学留学のあいだに教育訓練休暇給付金を使える可能性<br>△ 夏までにTOCFL B1が必要（出願は8月〜9月末）。台湾政府の奨学金は9月入学向けなので使えない可能性。会社を出るのが早まる</p></div><div class="card" style="border-left:4px solid var(--rose)"><span class="tag rose" style="align-self:flex-start">1年遅らせる</span><b style="font-size:1.02rem">C. 2029年9月に清華大学（または台北大学）</b><p class="num" style="color:var(--rose);font-size:1rem">2028年9月から語学センターで1年</p><p style="font-size:.86rem">◎ 中国語を1年しっかり学べる。語学の1年に台湾政府の華語文奨学金を使える可能性。翌年はB1を持って、台湾政府の奨学金（中国語のルート）と大学の奨学金に申し込める<br>△ 修了は31歳前後。ヨーロッパは交換留学とホイスコーレで</p></div></div><div class="card" style="border-left:4px solid var(--sky-d);margin-top:12px"><span class="tag sky" style="align-self:flex-start">目的にいちばん近い</span><b style="font-size:1.02rem">D. 成功大学（創意産業設計・台南）に2028年9月か2029年9月</b><p class="num" style="color:var(--sky-d);font-size:1rem">全部英語・秋入学のみ</p><p style="font-size:.86rem">◎ 場所・文化・エスノグラフィー・デザインがそろう。好きな町。英語で入れる<br>△ 人類学の理論は薄め。出願に作品集がいる。英語はCEFR B2。春入学はないので、空いた時期は語学センターで埋める</p></div><p class="callout" style="display:block"><b>決め手は、11月の問い合わせの返事</b>。師範大学に風土や空間の研究を英語で指導できる先生がいればA、いなければBかC。2027年の春までに本命を決めます。お金の優先順位はいちばん下なので、Cも十分あり。</p></section><section id="p-tl"><h2><span class="sn">2</span>年表（Aの場合。BとCは2028年から語学センター）</h2><div class="tl"><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">2026.11</span><span class="age">26歳</span></div><h3>問い合わせと、IELTSの力だめし</h3><p>11月21〜23日の連休に、成功大学・清華大学・師範大学・台北大学へ問い合わせメール。23日はIELTSの練習問題で力だめし。NHKラジオの中国語を始める。</p></div><p class="phase" style="--c:var(--ink)">働きながら準備（いまの会社で）</p><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">2027.01〜</span><span class="age">26歳</span></div><h3>英語が主役、中国語はNHKで</h3><p>IELTSは分野ごとに：リスニング・リーディングは過去問で独学、ライティングは添削、スピーキングはオンライン英会話。英語の小説をKindleに入れ、ニュース記事のレッスンを週2で予約。中国語はNHKラジオで発音から。</p></div><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">2027.夏</span><span class="age">26歳</span></div><h3>台湾で数日「暮らすつもり」で過ごす</h3><p>師範大学と清華大学（新竹）を見学。先生とは春までにZoomで話しておく。寮のまわり、騎楼、市場、お廟を歩く。</p></div><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">2027.夏</span><span class="age">26歳</span></div><h3>IELTS 6.5と出願書類</h3><p>JASSOの締め切り（9〜10月）までにIELTS 6.5。九大の英文の卒業・成績証明書を台北駐日経済文化代表処で認証（1部2,300円・約1週間）。研究計画書と推薦状（学科ごとに要確認）</p></div><div class="step" style="--c:var(--rose)"><div class="when"><span class="date">2027.09〜10</span><span class="age">26〜27歳</span></div><h3>JASSOの奨学金に申し込む</h3><p>大学院学位取得型。月17.7万円〜、修士2年。IELTS 6.5・GPA 3.0以上・推薦状2通（1人は大学の先生）。結果は翌年3月ごろ。</p></div><div class="step big" style="--c:var(--rose)"><div class="when"><span class="date">2027.11〜2028.03</span><span class="age">27歳</span></div><h3>師範大学に出願</h3><p>秋入学の出願は、第1回が11月〜12月中旬、第2回が1月〜3月初め（2026年秋入学の例）。出願料 NT$1,500</p></div><div class="step" style="--c:var(--rose)"><div class="when"><span class="date">2028.02〜03</span><span class="age">27歳</span></div><h3>台湾政府の奨学金に申し込む</h3><p>教育部台湾奨学金。台北駐日経済文化代表処に提出。</p></div><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">2028.03〜07</span><span class="age">27歳</span></div><h3>合否と奨学金の結果</h3><p>奨学金は書類の結果が5月上旬、面接が5月末、最終結果が7月上旬。6月30日までに入学許可書を出す。結果を見てから退職を伝えられる。</p></div><p class="phase" style="--c:var(--sky-d)">台湾の大学院（約3年）</p><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">2028.08</span><span class="age">27歳</span></div><h3>居留ビザで台湾へ。寮に入る</h3><p>日本で居留ビザをとって入国（ビザなしで入ると切り替えられない）。30日以内に居留証（ARC）を申請。</p></div><div class="step big" style="--c:var(--sky-d)"><div class="when"><span class="date">2028.09</span><span class="age">27歳</span></div><h3>師範大学の大学院に入学</h3><p>1年目は授業と中国語。大学の語学センターにも通う。</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">2029.夏</span><span class="age">28歳</span></div><h3>予備調査</h3><p>騎楼、市場、お廟など、気になる「あいだの空間」を歩いて、テーマと場所をしぼる。</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">2029.09〜2030.06</span><span class="age">28〜29歳</span></div><h3>研究計画を固めて、現地調査</h3><p>4〜6か月ほど、選んだ場所に通って、人のふるまいを観察し、話を聞く。2年目には交換留学でヨーロッパに半年行く案も。</p></div><div class="step big" style="--c:var(--sky-d)"><div class="when"><span class="date">2030.後半〜2031.06</span><span class="age">30歳</span></div><h3>修士論文を書いて修了</h3><p>口頭試問に合格したら修了。</p></div><p class="phase" style="--c:var(--leaf)">修了したあと</p><div class="step" style="--c:var(--leaf)"><div class="when"><span class="date">2031.夏</span><span class="age">30歳</span></div><h3>次の道を選ぶ</h3><p>台湾で働く／日本に戻る／ヨーロッパへ（ワーホリは31歳の誕生日の前に申込み。ホイスコーレは年齢制限なし）。</p></div></div></section><section id="p-after"><h2><span class="sn">3</span>修了したあと</h2><div class="card"><b>台湾で働く道が、2026年から広がった</b><p style="font-size:.9rem">台湾で学位をとった外国人は、<b>修了後に最長2年、就労許可なしで働ける</b>ようになった（2026年1月施行）。正社員でもアルバイトでもOK。</p><ul class="dots small"><li>2年のあとも働くなら、専門職の就労許可（月給の下限 NT$47,971。引き上げの検討あり）か、台湾の大学を出た人向けの「ポイント制」（70点以上）</li><li>台湾の求人サイト104では、2025年の外国人の求職者が前年比28%増。その約半分が台湾の大学の出身</li><li>日本の財団の台湾事務所で広報・文化の仕事をした日本人の例も</li></ul></div><div class="card"><b>選べる道</b><div class="hrows"><div class="hrow"><div class="hk"><b>台湾で働く</b><span class="tag sky">2年OK</span></div><p>日系企業、日本語が必要な台湾企業、文化・研究の仕事</p></div><div class="hrow"><div class="hk"><b>日本に戻る</b></div><p>UXリサーチ・デザイン・研究の仕事。日本の博士課程にも進める資格がある</p></div><div class="hrow"><div class="hk"><b>ヨーロッパへ</b><span class="tag leaf">年齢を気にしなくていい</span></div><p>ワーホリは31歳の誕生日（2031年10月18日）より前に申込み。間に合わなければ、デンマークのホイスコーレへ（年齢制限なし。週約2,000クローネで寮と食事込み、90日を超えるなら滞在許可）</p></div><div class="hrow"><div class="hk"><b>博士でヨーロッパ</b></div><p>修士は台湾、博士はスコットランドのアバディーン大学（インゴルドがつくった人類学科）など</p></div></div></div><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://blog.104.com.tw/hire_foreign_graduates_permit-free/" target="_blank" rel="noopener">104人力銀行：僑外生畢業免工作許可（2026年）</a></li><li><a href="https://www.mol.gov.tw/1607/1632/1633/87257/" target="_blank" rel="noopener">勞動部 公告（2025年12月26日）</a></li><li><a href="https://blog.104.com.tw/increase-the-salaries-of-foreign-white-collar-workers-in-taiwan/" target="_blank" rel="noopener">104人力銀行：外國白領薪資門檻（2025年12月）</a></li><li><a href="https://www.mol.gov.tw/1607/1632/1640/18883/" target="_blank" rel="noopener">勞動部：僑外生評點制</a></li><li><a href="https://blog.104.com.tw/104-foreigner-career-intw2026/" target="_blank" rel="noopener">104人力銀行：外籍求職者年增28%（2026年4月）</a></li><li><a href="https://www.mofa.go.jp/mofaj/toko/visa/working_h.html" target="_blank" rel="noopener">外務省：ワーキング・ホリデー制度</a></li></ul></div></details></section></main>
+<main class="view" data-view="money" hidden><header class="vhead"><p class="eyebrow">MONEY</p><h1>お金のこと</h1><p class=lead>3年間でいくらかかるか。奨学金がとれるかどうかで、大きく変わります。</p><div class=jump><button type="button" data-jump="m-sim">1 貯金の推移</button><button type="button" data-jump="m-cost">2 かかるお金</button><button type="button" data-jump="m-sch">3 奨学金</button><button type="button" data-jump="m-jp">4 日本側</button><button type="button" data-jump="m-kyuka">5 給付金</button></div></header><section id="m-sum"><div class="kpis"><div class="kpi"><span>奨学金なし（寮）</span><b class="num">450〜570<small>万円</small></b><span>3年間の合計</span></div><div class="kpi"><span>教育部奨学金あり</span><b class="num">150〜270<small>万円</small></b><span>3年間の合計</span></div><div class="kpi"><span>北大（参考）</span><b class="num">620〜830<small>万円</small></b><span>2年・留学込み</span></div></div><p class="note">台湾は師範大学に3年、寮に住む場合。出発前の手続き・航空券・最初の保険（約50万円）を含みます。北大は計画サイトの試算（札幌の生活とヨーロッパ留学込み）。</p><div class="card"><b>為替でどれくらい変わる？（奨学金なし・寮・3年）</b><dl class="kv"><dt>1元＝3.5円（数年前）</dt><dd>約350〜430万円</dd><dt>1元＝4.7円（このサイトの計算）</dt><dd>約450〜570万円</dd><dt>1元＝5.2円（さらに円安）</dt><dd>約490〜620万円</dd></dl><p class="note">奨学金は台湾ドルでもらえるので、とれれば円安の影響はかなり小さくなります（教育部奨学金ありなら、5.2円でも約160〜290万円）。</p></div></section><section id="m-sim"><h2><span class="sn">1</span>貯金の推移</h2><div class="card"><b>貯金の推移（2028年9月入学・寮・生活費 月1.7万元）</b><svg viewBox="0 0 340 230" role="img" aria-label="2028年9月入学の場合の資産の推移。奨学金ありは修了時に約810万円、なしは約480万円" style="width:100%;height:auto"><rect x="150.2" y="14" width="166.7" height="176" fill="var(--sky-soft)"/><text x="233.5" y="25" text-anchor="middle" font-size="9" font-weight="700" fill="var(--sky-d)">台湾の大学院</text><line x1="34" x2="332" y1="190.0" y2="190.0" stroke="var(--line)" stroke-width="1"/><text x="29" y="193.5" text-anchor="end" font-size="9" fill="var(--sub)">0</text><line x1="34" x2="332" y1="146.0" y2="146.0" stroke="var(--line)" stroke-width="1"/><text x="29" y="149.5" text-anchor="end" font-size="9" fill="var(--sub)">250</text><line x1="34" x2="332" y1="102.0" y2="102.0" stroke="var(--line)" stroke-width="1"/><text x="29" y="105.5" text-anchor="end" font-size="9" fill="var(--sub)">500</text><line x1="34" x2="332" y1="58.0" y2="58.0" stroke="var(--line)" stroke-width="1"/><text x="29" y="61.5" text-anchor="end" font-size="9" fill="var(--sub)">750</text><line x1="34" x2="332" y1="14.0" y2="14.0" stroke="var(--line)" stroke-width="1"/><text x="29" y="17.5" text-anchor="end" font-size="9" fill="var(--sub)">1000</text><text x="49.2" y="204" text-anchor="middle" font-size="9" fill="var(--sub)">2027</text><text x="109.8" y="204" text-anchor="middle" font-size="9" fill="var(--sub)">2028</text><text x="170.4" y="204" text-anchor="middle" font-size="9" fill="var(--sub)">2029</text><text x="231.0" y="204" text-anchor="middle" font-size="9" fill="var(--sub)">2030</text><text x="291.6" y="204" text-anchor="middle" font-size="9" fill="var(--sub)">2031</text><line x1="145.1" x2="332" y1="172.4" y2="172.4" stroke="var(--rose)" stroke-dasharray="2 3" stroke-width="1"/><polyline points="34.0,132.6 39.1,132.4 44.1,133.2 49.2,133.0 54.2,134.6 59.3,134.4 64.3,134.2 69.4,133.7 74.4,133.2 79.5,130.2 84.5,132.3 89.6,131.7 94.6,131.2 99.7,131.6 104.7,131.0 109.8,130.5 114.8,130.0 119.9,129.5 124.9,128.9 130.0,128.4 135.0,127.9 140.1,122.2 145.1,87.4 150.2,94.1 155.2,99.7 160.3,101.1 165.3,102.5 170.4,104.0 175.4,106.2 180.5,111.9 185.5,113.3 190.6,114.7 195.6,116.1 200.7,117.5 205.7,118.9 210.8,121.2 215.8,126.9 220.9,128.3 225.9,129.7 231.0,131.1 236.0,133.4 241.1,139.0 246.1,140.5 251.2,141.9 256.2,143.3 261.3,144.7 266.3,146.1 271.4,148.4 276.4,154.0 281.5,155.4 286.5,156.8 291.6,158.2 296.6,160.5 301.7,166.2 306.7,167.6 311.8,169.0 316.8,170.4 321.9,171.8 326.9,171.8 332.0,171.8" fill="none" stroke="var(--rose)" stroke-width="1.4" stroke-dasharray="5 3"/><polyline points="34.0,51.3 39.1,50.3 44.1,50.3 49.2,49.4 54.2,50.2 59.3,49.3 64.3,48.3 69.4,47.1 74.4,45.8 79.5,42.0 84.5,43.4 89.6,42.1 94.6,40.8 99.7,40.4 104.7,39.1 109.8,37.8 114.8,36.5 119.9,35.2 124.9,33.8 130.0,32.5 135.0,31.2 140.1,24.8 145.1,27.0 150.2,33.5 155.2,39.0 160.3,40.2 165.3,41.4 170.4,42.7 175.4,44.8 180.5,50.3 185.5,51.5 190.6,52.8 195.6,54.0 200.7,55.2 205.7,56.4 210.8,58.5 215.8,64.0 220.9,65.2 225.9,66.5 231.0,67.7 236.0,69.8 241.1,75.3 246.1,76.5 251.2,77.7 256.2,78.9 261.3,80.2 266.3,81.4 271.4,83.5 276.4,89.0 281.5,90.2 286.5,91.4 291.6,92.6 296.6,94.7 301.7,100.2 306.7,101.4 311.8,102.6 316.8,103.8 321.9,105.1 326.9,104.9 332.0,104.7" fill="none" stroke="var(--rose)" stroke-width="2.4" stroke-linejoin="round"/><polyline points="34.0,51.3 39.1,50.3 44.1,50.3 49.2,49.4 54.2,50.2 59.3,49.3 64.3,48.3 69.4,47.1 74.4,45.8 79.5,42.0 84.5,43.4 89.6,42.1 94.6,40.8 99.7,40.4 104.7,39.1 109.8,37.8 114.8,36.5 119.9,35.2 124.9,33.8 130.0,32.5 135.0,31.2 140.1,24.8 145.1,27.0 150.2,33.4 155.2,33.8 160.3,33.3 165.3,32.7 170.4,32.2 175.4,32.6 180.5,33.0 185.5,32.4 190.6,31.9 195.6,31.4 200.7,30.8 205.7,30.3 210.8,30.6 215.8,31.0 220.9,30.5 225.9,29.9 231.0,29.4 236.0,29.7 241.1,30.1 246.1,29.6 251.2,29.0 256.2,28.5 261.3,28.0 266.3,27.4 271.4,27.7 276.4,33.1 281.5,34.2 286.5,35.3 291.6,36.4 296.6,38.4 301.7,43.7 306.7,44.8 311.8,45.9 316.8,47.0 321.9,48.1 326.9,47.8 332.0,47.5" fill="none" stroke="var(--sky-d)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="140.1" cy="24.8" r="3" fill="var(--ink)"/><text x="140.1" y="16.8" text-anchor="middle" font-size="9.5" font-weight="700" fill="var(--ink)" stroke="var(--paper)" stroke-width="3" paint-order="stroke">退職時 約940</text><text x="332" y="38.5" text-anchor="end" font-size="10" font-weight="700" fill="var(--sky-d)" stroke="var(--paper)" stroke-width="3" paint-order="stroke">約810万円</text><text x="332" y="120.7" text-anchor="end" font-size="10" font-weight="700" fill="var(--rose)" stroke="var(--paper)" stroke-width="3" paint-order="stroke">約480万円</text></svg><div class="legend"><span style="--c:var(--sky-d)">奨学金あり（資産の合計）</span><span style="--c:var(--rose)">奨学金なし（資産の合計）</span><span style="--c:var(--rose)">点線：奨学金なしの現金</span></div><div class="hrows"><div class="hrow"><div class="hk"><b>2028年7月</b><span class="tag ">退職</span></div><p>奨学金の結果を見て退職。住民税の残り（約20万円）を一括で払う</p></div><div class="hrow"><div class="hk"><b>2028年8月</b><span class="tag ">渡航</span></div><p>航空券・ビザ・健診・最初の6か月の保険など 約30万円</p></div><div class="hrow"><div class="hk"><b>2029年1月</b><span class="tag leaf">住民税ゼロ</span></div><p>1月1日に海外にいるので、2029年度の住民税はかからない</p></div><div class="hrow"><div class="hk"><b>2030年8月</b><span class="tag ">奨学金おわり</span></div><p>奨学金は最長2年。3年目は自分で払う</p></div><div class="hrow"><div class="hk"><b>2031年6月</b><span class="tag sky">修了</span></div><p>そのあとは台湾で働く（収支ゼロとして計算）</p></div></div><p class="callout" style="display:block"><b>奨学金なしなら、出国前にNISAを約215万円現金にしておく</b>。海外にいる間はNISAを売れないため。そうすれば、生活費6か月分（100万円・赤い点線）の現金をずっと残せる。奨学金があれば、NISAには手をつけずにすむ。</p><p class="note">いまの貯金（現金326・NISA368・iDeCo94万円）から、計画サイトと同じ積立と運用（年3.5%）で計算。1元＝4.7円。修了後に台湾で働いた分は入れていません。</p></div></section><section id="m-cost"><h2><span class="sn">2</span>かかるお金</h2><div class="card"><b>3年間の内わけ（奨学金なし・寮）</b><div class="bars" role="img" aria-label="3年間の費用の内わけ"><div class="bar"><div class="lab">学費</div><div class="track" style="--w:38%"><div class="fill" style="width:38%;--c:var(--sky-d)"></div><span class="val">約97〜145万円</span></div></div><div class="bar"><div class="lab">生活費</div><div class="track" style="--w:98%"><div class="fill" style="width:98%;--c:var(--sky)"></div><span class="val in">約254〜372万円</span></div></div><div class="bar"><div class="lab">出発前など</div><div class="track" style="--w:13%"><div class="fill" style="width:13%;--c:var(--sun)"></div><span class="val">約50万円</span></div></div></div><ul class="dots small"><li><b>学費</b>：師範大学の外国人の学費は1学期 NT$50,726＋NT$705（約24万円、2026年秋入学の要項）。台湾の学生の約2倍。2年分で約97万円、3年目もフルでかかると約145万円（いちばん高く見た数字）。<b>実際はもっと下がる可能性が高い</b>：大学の奨学金なら1年目の学費が免除、台湾政府の奨学金なら毎学期の自己負担は約5万円だけ。3年目は授業をとらなければ安くなる仕組みの可能性あり（要確認）</li><li><b>生活費</b>：寮なら月 約1.5〜2.2万元（約7〜10万円）×36か月</li><li><b>出発前など</b>：ビザ・書類の認証・健康診断・出願料・往復の航空券（年2回）・最初の6か月の留学保険</li></ul></div><div class="card"><b>1か月の生活費（台北・大安区）</b><dl class="kv"><dt>寮（2人部屋）</dt><dd>月 約2.5万円</dd><dt>ワンルーム</dt><dd>月 約9.4万円〜</dd><dt>食費</dt><dd>約4〜6万円</dd><dt>交通（TPASS）</dt><dd>約5,600円</dd><dt>スマホ</dt><dd>約2,500円</dd><dt>健保（7か月目〜）</dt><dd>約3,900円</dd></dl><p class="note">寮は女二舍の2人部屋（1学期 NT$26,710）、ワンルームは大安区の平均（NT$20,000超）。弁当は1食 NT$89〜140。TPASSはMRT・バスが乗り放題の定期（NT$1,200）。</p><p class="callout" style="display:block">寮なら月 <b>約7〜10万円</b>、ワンルームなら月 <b>約13〜19万円</b>。3年間で約200〜300万円ちがうので、<b>寮に入れるかが大きい</b>。</p></div><div class="card"><b>台南（成功大学）なら、こう変わる</b><dl class="kv"><dt>東寧寮 4人部屋</dt><dd>1学期 NT$26,300（月 約2.7万円）</dd><dt>東寧寮 1人部屋</dt><dd>1学期 NT$54,200（月 約5.7万円）、95床だけ</dd><dt>大学の近くの1人部屋</dt><dd>月 約NT$10,000〜（約4.7万円〜、約40㎡）</dd><dt>台北・大安区（参考）</dt><dd>月 約NT$18,000（約8.5万円）</dd></dl><p class="callout" style="display:block">家賃だけで、台北より<b>月約3〜4万円安い</b>。2年間で約70〜100万円の差。作戦：1年目は東寧寮の4人部屋（台湾の学生と暮らして中国語）、2年目は1人部屋か町の古い家（老屋）を借りて論文に集中。</p><p class="note">寮費は学期ごとの料金。休み中の扱い、大学院の留学生が申し込めるか、床の形は要確認。</p></div></section><section id="m-sch"><h2><span class="sn">3</span>奨学金</h2><div class="card" style="border-left:4px solid var(--sky-d)"><b>おすすめの組み合わせ</b><div class="hrows"><div class="hrow"><div class="hk"><b>A. JASSO＋大学の学費免除</b><span class="tag sky">本命</span></div><p>生活費はJASSO（月17.7万円〜）、学費は大学の奨学金で免除。JASSOの側で併用してよいかは要確認</p></div><div class="hrow"><div class="hk"><b>B. 台湾政府の奨学金だけ</b></div><p>学費ほぼ0＋月2万元（約9.4万円）。大学の学費免除とは一緒にもらえない</p></div><div class="hrow"><div class="hk"><b>C. 大学の学費免除だけ</b><span class="tag sun">保険</span></div><p>出願と同時に申し込んでおく。政府の奨学金がだめだったときの保険</p></div></div><p class="note">全部並行して申し込んで、結果を見てから選べば損はしない。</p></div><div class="stack"><div class="card" style="border-left:4px solid var(--sky-d)"><p class="meta">JASSO 海外留学支援制度（大学院学位取得型）</p><b class="num" style="font-size:1.15rem;line-height:1.4">月17.7万円〜38.8万円・修士2年</b><p style="font-size:.86rem">地域で額が違う（台湾の区分は要確認）。2024年度から学費の支給はなくなり、生活費のみ。<b>申込みは前の年の9〜10月</b>（2028年入学なら2027年秋）。条件：IELTS 6.5（中国語で学ぶならCEFR C1）、GPA 3.0以上、35歳未満、推薦状2通。2026年度の人文・社会系の修士は応募292人・採用54人</p></div><div class="card" style="border-left:4px solid var(--leaf)"><p class="meta">教育部 台湾奨学金</p><b class="num" style="font-size:1.15rem;line-height:1.4">月 NT$20,000＋学費（1学期 NT$40,000まで）</b><p style="font-size:.86rem">最長2年。日本から約20名。申込みは2〜3月、最終結果7月上旬。<b>英語のルート</b>：日英の研究計画書＋英語のスコア＋大学の「全英語コース」の証明書。<b>中国語のルート</b>：TOCFL進階（B1）以上。華語文奨学金と同時には申し込めない。台湾のほかの公的機関・学校の奨学金とは併用不可</p></div><div class="card" style="border-left:4px solid var(--ink)"><p class="meta">大学の奨学金</p><b class="num" style="font-size:1.15rem;line-height:1.4">清華大学：学費免除＋月5,000元（2年）</b><p style="font-size:.86rem"><b>清華大学</b>：タイプAは学費全額免除＋月5,000元、タイプBは学費全額免除。2年目からは更新審査。<b>師範大学</b>：1年目の学費免除、2年目は学科の推薦しだい。出願と同時に申し込み、学科が選ぶ。どちらも台湾政府の奨学金とは併用不可</p></div><div class="card" style="border-left:4px solid var(--rose)"><p class="meta">華語文奨学金（語学留学用）</p><b class="num" style="font-size:1.15rem;line-height:1.4">月 NT$28,000（前回の調べ）</b><p style="font-size:.86rem">大学の語学センターで3か月〜1年、<b>秋学期から</b>。入学前の夏だけの語学留学には使えない。台湾に留学・就労・ワーホリで住んだことがある人は対象外。Cの案（2028年9月から語学1年）なら使える可能性</p></div><div class="card" style="border-left:4px solid var(--sun)"><p class="meta">外交部 台湾奨学金</p><b class="num" style="font-size:1.15rem;line-height:1.4">月 NT$33,000＋往復航空券</b><p style="font-size:.86rem">日本からは2名だけ。教育部の奨学金とは併願できない</p></div></div><div class="card"><b>成功大学に2028年9月入学なら：奨学金カレンダー</b><div class="hrows"><div class="hrow"><div class="hk"><b>2027.09〜10</b></div><p>JASSO（IELTS 6.5があれば）。会社員のまま応募可、推薦状は職場の上司もOK。結果は3月</p></div><div class="hrow"><div class="hk"><b>2027.12〜2028.03</b></div><p>成功大学に出願＋大学の奨学金（学費免除＋月10,000元）。結果は6月初め</p></div><div class="hrow"><div class="hk"><b>2028.02〜03</b></div><p>台湾教育部の奨学金（日本から約20人）。成功大学の奨学金とは併用不可</p></div><div class="hrow"><div class="hk"><b>2028.05〜06</b></div><p>重田教育財団（年22,000ドル・2年・全国5人）。合格が決まってから6/30までに応募。他の奨学金と併用OK、社会人も可。ただし「経済的に困難」が条件</p></div><div class="hrow"><div class="hk"><b>2028.09〜10</b></div><p>JASSOに2年目からの支援で再挑戦できる（在学中でも応募可）</p></div><div class="hrow"><div class="hk"><b>2029.03〜04</b></div><p>米山奨学金（台湾）：修士1年のうちに申請、月25,000元×12か月。申請書と研究計画は中国語、7月に台湾で面接</p></div></div></div><p class="callout" style="display:block"><b>気をつけたいこと</b>：交換留学とぶつかる可能性。師範大学の学院のルールでは、台湾政府の奨学金をもらっている留学生は交換留学に応募できない（文学院も同じかは要確認）。</p></section><section id="m-jp"><h2><span class="sn">4</span>日本側のお金と手続き</h2><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>住民税</b><span class="tag leaf">得する</span></div><p>出国した年の分（前の年の所得の分）は払う。<b>次の1月1日に海外にいれば、その年度からかからない</b>（海外転出届を出した場合）</p></div><div class="hrow"><div class="hk"><b>国民健康保険</b><span class="tag ">抜ける</span></div><p>海外転出でなくなる。最初の6か月は日本の留学保険、7か月目から台湾の健保</p></div><div class="hrow"><div class="hk"><b>国民年金</b><span class="tag sun">選べる</span></div><p>海外転出で義務はなくなるけれど、任意で続けられる。続けると障害・遺族年金の対象のまま。続けない期間は「カラ期間」（受給資格には数えるが、年金額は増えない）</p></div><div class="hrow"><div class="hk"><b>ビザの残高</b><span class="tag rose">注意</span></div><p>居留ビザの申請には、<b>本人名義の口座に申請月まで6か月ずっと50万円以上</b>ある取引明細が必要（奨学金の受給者は証明書で代用可）</p></div></div><p class="note">日本と台湾の間には社会保障協定がない（年金の通算はできない）。</p></div><div class="card"><b>税金と節税のカレンダー</b><div class="hrows"><div class="hrow"><div class="hk"><b>2027年</b><span class="tag leaf">節税の勝負の年</span></div><p>控除が所得税と住民税の両方に効く（約20%）。<b>ふるさと納税はいつもどおり</b>。<b>青色申告の承認申請を3月15日までに</b>（2027年分から。複式簿記＋e-Taxで65万円、優良な電子帳簿で75万円）。2026年分の白色申告は「事業所得」で出す</p></div><div class="hrow"><div class="hk"><b>2028年（出国の年）</b></div><p>控除は所得税だけに効く（約10%）。<b>ふるさと納税はしない</b>（2029年度の住民税がそもそもかからないため）。所得税は出国前の準確定申告か、親に納税管理人を頼んで翌年3月に。退職のときに残りの住民税を一括で払う</p></div><div class="hrow"><div class="hk"><b>2029年1月1日</b><span class="tag leaf">得する</span></div><p>台湾にいれば、2028年1〜7月の給料の分の住民税はかからない。年末年始に一時帰国しても住民票は戻さない</p></div><div class="hrow"><div class="hk"><b>台湾にいるあいだ</b></div><p>日本の税金はほぼゼロ。台湾では183日以上いる年は「居住者」で、アルバイト程度なら非課税の範囲。1年目（183日未満）は給料から6%か18%が天引き</p></div><div class="hrow"><div class="hk"><b>帰国したら</b></div><p>国民健康保険は「前年の日本での収入0」を申告すると軽くなる</p></div></div></div><div class="card"><b>日本の大学院（北大）との税金・保険の差</b><div class="hrows"><div class="hrow"><div class="hk"><b>住民税（2029年度）</b></div><p>北大：学生になってから払う（目安25〜30万円）／台湾：1月1日に日本にいないのでかからない</p></div><div class="hrow"><div class="hk"><b>国民健康保険（1年目）</b></div><p>北大：前年の収入で高い（目安30〜45万円。任意継続もあり）／台湾：加入しない（台湾の保険は月4,000円ほど）</p></div><div class="hrow"><div class="hk"><b>国民年金</b></div><p>北大：義務（学生納付特例で後払い可）／台湾：任意</p></div></div><p class="callout" style="display:block">学生になってからの税金と保険料だけで、<b>台湾が約50〜70万円有利</b>（年収480万円くらいと仮定した目安）。家賃・学費の差に上乗せ。</p></div><div class="card"><b>NISA・iDeCo・共済</b><div class="hrows"><div class="hrow"><div class="hk"><b>NISA</b></div><p>全部売らなくていい。台湾で使う分だけ、<b>出国前にNISAの中で売る</b>（利益に税金がかからない）。海外にいる間は売買できない。2028年は無理に買い足さない</p></div><div class="hrow"><div class="hk"><b>iDeCo</b><span class="tag rose">増額しない</span></div><p>2027年から会社員の上限は月6.2万円になるが、60歳まで引き出せない。今の額のまま、出国したら止める</p></div><div class="hrow"><div class="hk"><b>小規模企業共済</b><span class="tag sun">要確認</span></div><p>掛金は全額控除、台湾に行くとき廃業すれば退職金扱いで受け取れる。6か月未満の廃業は掛け捨て。副業（事業所得）で入れるかを中小機構に確認</p></div></div><p class="note">税理士ではないので、2028年の申告の前に税務署か税理士に確認する。</p></div></section><section id="m-kyuka"><h2><span class="sn">5</span>教育訓練休暇給付金</h2><div class="card"><b>教育訓練休暇給付金は、台湾の大学院でも使えそう</b><ul class="dots small"><li>厚労省の要領に、対象の例として<b>「語学留学、海外大学院での修士号等の取得」</b>が書かれている</li><li>30日ごとの認定は<b>郵送・電子申請・代理人</b>でもOK（ハローワークへの出頭は必須ではない）</li><li>加入5年以上が条件。2023年4月入社なので、<b>2028年4月で5年</b>。前回の教育訓練給付金（デザインプレックス）は、この5年の数え方には関係しない</li><li>休暇のあとに退職して受け取った人の体験談は、見つからなかった（2025年10月にできたばかり。導入している会社は約6%）</li><li>90日分で約60万円（月給40万円の試算）。90日分もらうには、90日以上の無給休暇が必要</li></ul><p class="callout" style="display:block"><b>注意</b>：無給の休暇中も、健康保険・厚生年金の自分の分（月6万円前後）は払い続ける。手元に残るのは約40万円の見込み。また、制度の趣旨は「辞めずに学ぶ」ことなので、<b>最初から退職するつもりで使えるかはグレー</b>。会社とハローワークに先に確認する。</p><details class="more"><summary>ハローワークで聞くこと</summary><div class="more-in"><ol class="dots small" style="padding-left:1.2em"><li>台湾の国立大学の修士課程に通うための休暇は、「海外大学院での修士号等の取得」として対象になるか。事前にどんな書類を出せば確認してもらえるか</li><li>休暇中は台湾に住む。30日ごとの認定は、郵送・電子申請・家族の代理提出だけで済むか</li><li>住民票を海外転出した場合、どこのハローワークの管轄になるか。住民票を日本に残す必要はあるか</li><li>受講証明書は台湾の大学が出す中国語・英語のものでよいか。翻訳は必要か</li><li>2023年4月1日入社・専門実践の受給歴ありで、2028年8月時点で5年以上になるか</li><li>休暇の途中または後に退職する予定がある場合でも、受給に問題はないか</li><li>90日分を受けるには、休暇は何日必要か</li><li>受給後に退職した場合、基本手当を受けられる可能性はあるか</li><li>台湾の大学の語学センター（国語教学中心）に通うための休暇は対象になるか</li><li>前回の教育訓練給付金（専門実践）から3年たっていなくても受けられるか</li></ol><p class="note">ハローワークはメールでの質問を受けていない。窓口（新川崎・鹿島田はたぶんハローワーク川崎の担当）か電話で。質問を紙に書いて持っていく。</p></div></details></div><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://www.mhlw.go.jp/content/001543278.pdf" target="_blank" rel="noopener">厚生労働省：教育訓練休暇給付金のご案内（パンフレット）</a></li><li><a href="https://www.mhlw.go.jp/content/001684255.pdf" target="_blank" rel="noopener">厚生労働省：業務取扱要領「教育訓練休暇給付金」（令和8年4月版）</a></li><li><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/koyouhoken/kyukakyufukin.html" target="_blank" rel="noopener">厚生労働省：教育訓練休暇給付金（制度ページ・試算Excel）</a></li><li><a href="https://www.mhlw.go.jp/content/001681621.pdf" target="_blank" rel="noopener">厚生労働省：教育訓練に活用できる休暇・休職制度 導入事例集（2026年3月）</a></li><li><a href="https://www.rakuten-sec.co.jp/web/support/non-resident/" target="_blank" rel="noopener">楽天証券：海外転出（非居住者）の手続き</a></li><li><a href="https://www.moneypost.jp/1112837" target="_blank" rel="noopener">マネーポストWEB：海外転勤とNISA</a></li></ul></div></details></section><section id="m-src"><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://bds.oia.ntnu.edu.tw/api/v1/ap/dl?id=359002" target="_blank" rel="noopener">NTNU International Student Admission Prospectus Fall 2026 / Spring 2027</a></li><li><a href="https://dorm.sa.ntnu.edu.tw/wp-content/uploads/2026/03/National-Taiwan-Normal-University-Student-Accommodation-Fee（2026）.pdf" target="_blank" rel="noopener">NTNU Student Accommodation Fee（2026）</a></li><li><a href="https://udn.com/news/story/7241/9590368" target="_blank" rel="noopener">経済日報：雙北大學套房租金（2026年6月）</a></li><li><a href="https://www.ctee.com.tw/news/20260107701495-431401" target="_blank" rel="noopener">工商時報：TPASS 1200（2026年1月）</a></li><li><a href="https://gocfs.ntu.edu.tw/en/links/insurance/insurance2" target="_blank" rel="noopener">台湾大学：僑外生 全民健保</a></li><li><a href="https://roc-taiwan.org/uploads/sites/44/2026/01/2026年度日文教育省台湾奨学金および華語文奨学金募集要項2.pdf" target="_blank" rel="noopener">台北駐日経済文化代表処：2026年度 教育省台湾奨学金・華語文奨学金 募集要項</a></li><li><a href="https://roc-taiwan.org/uploads/sites/44/2026/01/2026年度日文外交部奨学金募集要項1.pdf" target="_blank" rel="noopener">台北駐日経済文化代表処：2026年度 外交部台湾奨学金 募集要項</a></li><li><a href="https://buddhist.fgu.edu.tw/en/AD1/admiss3" target="_blank" rel="noopener">佛光大学：Tuition and Fees（2026〜27）</a></li><li><a href="https://www.city.edogawa.tokyo.jp/e013/kurashi/zeikin/juminzei/zei_gaiyo/kaigaishuccho.html" target="_blank" rel="noopener">江戸川区：海外へ出国する方の住民税</a></li><li><a href="https://www.city.ota.tokyo.jp/seikatsu/kokunen/nenkin/kanyusoushitsu/kokuminnenkinzaigaininni.html" target="_blank" rel="noopener">大田区：海外在住時の国民年金任意加入</a></li><li><a href="https://www.roc-taiwan.org/jp_ja/post/117303.html" target="_blank" rel="noopener">台北駐日経済文化代表処：留学（学位課程）居留ビザ</a></li></ul></div></details></section></main>
+<main class="view" data-view="schools" hidden><header class="vhead"><p class="eyebrow">SCHOOLS</p><h1>大学院の候補</h1><p class=lead>「風土」（建物・空間・都市）と人のものの見方を学べるところを、台湾全体とヨーロッパから。</p><div class=jump><button type="button" data-jump="s-tw">1 台湾の候補</button><button type="button" data-jump="s-more">2 ほかの台湾の候補</button><button type="button" data-jump="s-eu">3 ヨーロッパ</button><button type="button" data-jump="s-other">4 上海・香港</button><button type="button" data-jump="s-hoku">5 北大から</button></div></header><section id="s-sum"><div class="card sum"><p class="eyebrow">3行でいうと</p><ol class="sum3"><li><b>目的（エスノグラフィーをデザインや現場に生かす）にいちばん近いのは、成功大学の創意産業設計研究所</b>（台南・全部英語）。林蕙玟先生が「場所・文化遺産・エスノグラフィー・デザイン」</li><li><b>理論がいちばんしっかりしているのは清華大学の人類学研究所</b>。英語IELTS 6.5と中国語B1の両方が必要</li><li><b>英語で早く入る安全策は師範大学</b>（春入学あり）。中身は台湾文化の人文学寄り</li></ol></div></section><section id="s-tw"><h2><span class="sn">1</span>台湾の候補</h2><div class="stack"><details class="uni main"><summary><div class="uni-top"><div><span class="tag sky">目的の本命</span><span class="tag leaf">全部英語</span></div><h3>国立成功大学 創意産業設計研究所（修士）</h3><p class="meta">台南・光復キャンパス（台南駅の裏口から徒歩5〜10分）</p></div><div class="uni-stats"><div><small>英語</small><b>CEFR B2</b></div><div><small>学費/年</small><b>約8.2万元</b></div><div><small>相性</small><b>◎</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><p class="pitch">広い意味の「デザイン×文化」の研究所。授業はすべて英語で、留学生が多い。台南の町を現場に、理解するところから形にするところまでやる。</p><div class="hrows"><div class="hrow"><div class="hk"><b>先生</b></div><p><b>林蕙玟</b>（人間中心のデザイン、批判的文化遺産研究、映像エスノグラフィー、地域と「場所」の文化、歴史建築の再利用）／陳明恵（物質文化、視覚文化、文化をまたぐ研究）／仲曉玲（質的・混合研究、地域の文化産業）／楊佳翰（所長。サービスデザイン、農村に住み込む実践）／劉世南（都市のデザイン力）</p></div><div class="hrow"><div class="hk"><b>今だけの縁</b><span class="tag sun">〜2027.03</span></div><p>千葉大学の鈴木雅之教授が客員研究中。台湾の文化創意と空間再生の事例約570件をもとに、建物の再利用とまちづくりを研究。日本語で相談できる</p></div><div class="hrow"><div class="hk"><b>出願</b><span class="tag rose">秋入学のみ</span></div><p>留学生の枠は修士6人（2026年秋）。春入学は募集なし。<b>出願は12月20日〜3月15日</b>、結果は6月初め（大学の奨学金の結果も一緒）。英語はCEFR B2以上（IELTSの換算は要確認）。書類：自伝、履歴、留学計画書、<b>作品集</b>。オンライン面接あり。卒業には別の語学の条件あり</p></div><div class="hrow"><div class="hk"><b>お金</b></div><p>学費は年 約NT$82,200（外部サイトの情報）。大学の奨学金：修士は「基本の学費免除＋月NT$10,000」か「基本の学費免除」。台湾政府の奨学金も対象</p></div><div class="hrow"><div class="hk"><b>寮</b></div><p>2025年に新しい東寧寮ができた。全部屋がお風呂とベランダつき（1・2・4・6人部屋）。留学生の入れ方と寮費は要確認</p></div><div class="hrow"><div class="hk"><b>そのほか</b></div><p>学位をとる留学生は中国語の授業が無料。指導教授は<b>2年目の開始後2週間までに</b>決めればよい（最大3人、1人は研究所の専任）。光復キャンパスは日本時代の建物、成功湖、ガジュマルの庭（榕園）がある</p></div></div></div></details><details class="uni main"><summary><div class="uni-top"><div><span class="tag sky">理論の本命</span><span class="tag rose">中国語B1が必要</span></div><h3>国立清華大学 人類学研究所（修士）</h3><p class="meta">新竹（台北から高速鉄道で約30分）</p></div><div class="uni-stats"><div><small>語学</small><b>IELTS 6.5＋B1</b></div><div><small>学費/学期</small><b>2.6万元〜</b></div><div><small>相性</small><b>◎</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><p class="pitch">本格的な人類学の研究所。都市・空間、もの、芸術の人類学の先生がそろっていて、「風土と人のものの見方」にいちばん近い。修士論文は英語で書ける。</p><div class="hrows"><div class="hrow"><div class="hk"><b>先生</b></div><p>許瀞文（都市人類学・空間・国境を越える移動）／顧坤惠（宗教・歴史人類学・物質文化）／謝一誼（兼任。芸術の人類学・都市・新しい唯物論）／呂玫鍰（宗教人類学・漢人社会）／黄芊妤（宗教・グローバル化）</p></div><div class="hrow"><div class="hk"><b>出願</b><span class="tag rose">両方必須</span></div><p>2026年秋入学の要項で、英語（TOEFL iBT 80かIELTS 6.5）と<b>中国語（TOCFL B1）の両方が必須</b>。書類審査のみ。秋入学は12月中旬〜2月下旬、<b>春入学は8月初め〜9月末</b>に出願。授業は中国語が中心（英語だけでは卒業の単位がそろわない分類）</p></div><div class="hrow"><div class="hk"><b>お金</b></div><p>1学期に授業料と雑費 NT$26,300＋1単位 NT$2,100。大学の奨学金：タイプA（学費免除＋月5,000元）、タイプB（学費免除）、2年</p></div><div class="hrow"><div class="hk"><b>寮</b></div><p>院生は主に1人部屋か2人部屋。1学期 2人部屋 約1.1〜1.7万元、1人部屋 約1.7〜2.8万元</p></div><div class="hrow"><div class="hk"><b>そのほか</b></div><p>入学前に先生を決めなくていい（1学期目に割り当て）。修士は卒業までに中国語の授業4単位。交換留学は留学生も応募できる（日本以外）</p></div></div></div></details><details class="uni main"><summary><div class="uni-top"><div><span class="tag sky">英語ルートの本命</span><span class="tag leaf">春入学あり</span></div><h3>国立台湾師範大学 台湾語文学系（英語の修士 GPE）</h3><p class="meta">台北・和平東路（師大夜市のそば）</p></div><div class="uni-stats"><div><small>英語</small><b>B1以上</b></div><div><small>学費/年</small><b>約48万円</b></div><div><small>相性</small><b>◎</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="96" y="22" width="128" height="40" fill="var(--c-orange)"/><path d="M90 24 L160 4 L230 24Z" fill="var(--c-pink)"/><g fill="var(--c-white)"><rect x="110" y="32" width="10" height="16" rx="5"/><rect x="132" y="32" width="10" height="16" rx="5"/><rect x="178" y="32" width="10" height="16" rx="5"/><rect x="200" y="32" width="10" height="16" rx="5"/></g><rect x="152" y="36" width="16" height="26" rx="8" fill="var(--c-blue)"/><rect x="37.8" y="45.9" width="4.3" height="16.1" fill="var(--c-white)"/><ellipse cx="40" cy="33.5" rx="12.0" ry="19.3" fill="var(--c-green)"/><rect x="280.0" y="47.3" width="4.0" height="14.7" fill="var(--c-white)"/><ellipse cx="282" cy="36.0" rx="11.0" ry="17.6" fill="var(--c-green)"/><path transform="translate(250 12) scale(0.7)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/></svg><div class="diff" aria-label="難易度 5段階中3：英語の条件は要確認"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st">★</span><span class="st">★</span><span class="diff-l">英語の条件は要確認</span></div><p class="pitch">台湾の文化・言葉・歴史の記憶・食を学ぶ人文学の修士。日本時代の校舎がいまも現役の、雰囲気のいいキャンパス。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="4" fill="var(--c-orange)"/><path d="M2 22c0-6 3-9 7-9s7 3 7 9z" fill="var(--c-blue)"/><rect x="15" y="2" width="8" height="10" rx="1" fill="var(--c-yellow)"/></svg></span><div><b>先生</b><div class="srb"><b>天江喜久</b>（日本人。台湾史・歴史の記憶）／<b>陳玉箴</b>（食の人類学・台湾料理の文化史）／陳龍廷（伝統演劇・フィールドワーク）／スコット・サイモン（原住民族の人類学）</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="2" width="14" height="20" rx="2" fill="var(--c-sky)"/><rect x="6" y="7" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="11" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="15" width="5" height="2" fill="var(--c-cream)"/><path d="M16 21 20 7l3 1-4 14z" fill="var(--c-orange)"/></svg></span><div><b>授業と修了</b><div class="srb">30単位。2024年秋の入学から、英語の授業と中国語の授業を組み合わせる。修論は英語でも書ける。修論の前に学会発表か論文掲載が1回必要</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-green)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="var(--c-cream)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>出願</b><div class="srb">秋入学は前の年の11月〜3月初めに出願。英語のコースは大学の基準でCEFR B1以上。<b>台湾政府の奨学金の英語枠は「授業がすべて英語」の証明が必要なので、出してもらえるか要確認</b></div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><path d="M1.5 11.5 12 3l10.5 8.5z" fill="var(--c-blue)"/><rect x="4.5" y="11" width="15" height="11" fill="var(--c-orange)"/><rect x="10" y="15" width="4" height="7" fill="var(--c-cream)"/></svg></span><div><b>寮</b><div class="srb">女子の院生は学七舍（4人部屋・部屋にお風呂、各階に共用キッチン）か女二舍（2人部屋・お風呂つき）。最後は抽選</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="17" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="13" rx="9" ry="4" fill="var(--c-yellow)"/><ellipse cx="12" cy="9" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="8.6" rx="5" ry="2" fill="var(--c-yellow)"/></svg></span><div><b>お金</b><div class="srb">外国人の学費 1学期 NT$50,726（約24万円、2026年秋入学）。台湾の学生の約2倍。大学の奨学金で1年目は免除（台湾政府の奨学金とは併用不可）</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag ">候補</span></div><h3>国立台湾師範大学 歴史学系（英語の修士 GPE）</h3><p class="meta">台北・和平東路</p></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="96" y="22" width="128" height="40" fill="var(--c-orange)"/><path d="M90 24 L160 4 L230 24Z" fill="var(--c-pink)"/><g fill="var(--c-white)"><rect x="110" y="32" width="10" height="16" rx="5"/><rect x="132" y="32" width="10" height="16" rx="5"/><rect x="178" y="32" width="10" height="16" rx="5"/><rect x="200" y="32" width="10" height="16" rx="5"/></g><rect x="152" y="36" width="16" height="26" rx="8" fill="var(--c-blue)"/><rect x="37.8" y="45.9" width="4.3" height="16.1" fill="var(--c-white)"/><ellipse cx="40" cy="33.5" rx="12.0" ry="19.3" fill="var(--c-green)"/><rect x="280.0" y="47.3" width="4.0" height="14.7" fill="var(--c-white)"/><ellipse cx="282" cy="36.0" rx="11.0" ry="17.6" fill="var(--c-green)"/><path transform="translate(250 12) scale(0.7)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/></svg><div class="diff" aria-label="難易度 5段階中3：歴史寄り"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st">★</span><span class="st">★</span><span class="diff-l">歴史寄り</span></div><p class="pitch">日本時代の神社跡のような、歴史寄りのテーマならここも。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="2" width="14" height="20" rx="2" fill="var(--c-sky)"/><rect x="6" y="7" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="11" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="15" width="5" height="2" fill="var(--c-cream)"/><path d="M16 21 20 7l3 1-4 14z" fill="var(--c-orange)"/></svg></span><div><b>授業と修了</b><div class="srb">最低28単位。歴史と人文学の方法論が必修</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-green)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="var(--c-cream)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>出願</b><div class="srb">英語の条件・宗教史の先生がいるかは要問い合わせ</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag leaf">英語の条件が低い</span></div><h3>佛光大学 仏教学系 英語コース</h3><p class="meta">宜蘭・礁渓（温泉の町）</p></div><div class="uni-stats"><div><small>英語</small><b>B1</b></div><div><small>学費/年</small><b>約21万円</b></div><div><small>相性</small><b>○</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><path d="M0 40 Q60 10 120 36 T240 30 T320 34 V64 H0Z" fill="var(--c-green)"/><path d="M0 54 Q80 46 160 54 T320 52 V64 H0Z" fill="var(--c-sky)"/><rect x="140" y="30" width="40" height="20" fill="var(--c-orange)"/><rect x="155.2" y="37.6" width="9.6" height="12.4" fill="var(--c-blue)"/><path d="M132.8 30 Q160.0 23.6 187.2 30 L193.2 20 Q160.0 17.6 126.80000000000001 20Z" fill="var(--c-yellow)"/><circle cx="146.4" cy="39.0" r="2.8000000000000003" fill="var(--c-yellow)"/><circle cx="173.6" cy="39.0" r="2.8000000000000003" fill="var(--c-yellow)"/><g stroke="var(--c-white)" stroke-width="1.6" fill="none" stroke-linecap="round"><path d="M60 46 q3-6 0-10"/><path d="M68 46 q3-6 0-10"/><path d="M76 46 q3-6 0-10"/></g><path transform="translate(250 14) scale(0.7)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/></svg><div class="diff" aria-label="難易度 5段階中2：英語B1でOK"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st">★</span><span class="st">★</span><span class="st">★</span><span class="diff-l">英語B1でOK</span></div><p class="pitch">仏教の思想・心の哲学・仏教心理学・フィールドワーク。寮での共同生活や瞑想も授業に入る。信仰は求められない。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="2" width="14" height="20" rx="2" fill="var(--c-sky)"/><rect x="6" y="7" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="11" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="15" width="5" height="2" fill="var(--c-cream)"/><path d="M16 21 20 7l3 1-4 14z" fill="var(--c-orange)"/></svg></span><div><b>授業と修了</b><div class="srb">必修8単位＋選択16単位＋修論6単位。すべて英語</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-green)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="var(--c-cream)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>出願</b><div class="srb">英語CEFR B1（IELTS 5.5前後）。出願料は無料、オンライン面接あり。春入学（2月）もある</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="17" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="13" rx="9" ry="4" fill="var(--c-yellow)"/><ellipse cx="12" cy="9" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="8.6" rx="5" ry="2" fill="var(--c-yellow)"/></svg></span><div><b>お金</b><div class="srb">学費 年 NT$45,080（約21万円、2026〜27年度）。学科の奨学金 1学期 NT$50,000（約24万円、共同生活への参加が条件）で、学費を上回る</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-pink)"/><rect x="5" y="10.5" width="14" height="3" rx="1.5" fill="var(--c-orange)"/></svg></span><div><b>気になる点</b><div class="srb">扱うのは仏教だけ。お廟の民間信仰や道教は英語コースにない</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag sun">中身がいちばん合う</span><span class="tag rose">中国語B2</span></div><h3>国立政治大学 宗教研究所（中国語）</h3><p class="meta">台北・木柵（お廟の多い山あい）</p></div><div class="uni-stats"><div><small>中国語</small><b>B2</b></div><div><small>英語の授業</small><b>1つ</b></div><div><small>相性</small><b>◎</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="130" y="32" width="60" height="30" fill="var(--c-orange)"/><rect x="152.8" y="43.4" width="14.399999999999999" height="18.6" fill="var(--c-blue)"/><path d="M119.2 32 Q160.0 22.4 200.8 32 L206.8 22 Q160.0 13.399999999999999 113.2 22Z" fill="var(--c-pink)"/><circle cx="139.6" cy="45.5" r="4.2" fill="var(--c-yellow)"/><circle cx="180.4" cy="45.5" r="4.2" fill="var(--c-yellow)"/><line x1="110" y1="10.8" x2="110" y2="15.3" stroke="var(--ink)" stroke-width=".8"/><ellipse cx="110" cy="20.7" rx="4.5" ry="5.4" fill="var(--c-pink)"/><rect x="108.2" y="25.65" width="3.6" height="1.8" fill="var(--c-yellow)"/><line x1="210" y1="10.8" x2="210" y2="15.3" stroke="var(--ink)" stroke-width=".8"/><ellipse cx="210" cy="20.7" rx="4.5" ry="5.4" fill="var(--c-orange)"/><rect x="208.2" y="25.65" width="3.6" height="1.8" fill="var(--c-yellow)"/><line x1="250" y1="16.4" x2="250" y2="19.9" stroke="var(--ink)" stroke-width=".8"/><ellipse cx="250" cy="24.1" rx="3.5" ry="4.199999999999999" fill="var(--c-pink)"/><rect x="248.6" y="27.95" width="2.8" height="1.4" fill="var(--c-yellow)"/><rect x="0" y="60" width="320" height="4" fill="var(--c-orange)"/><g fill="var(--c-white)"><circle cx="50" cy="40" r="3"/><circle cx="62" cy="32" r="2.4"/><circle cx="74" cy="38" r="2"/></g></svg><div class="diff" aria-label="難易度 5段階中5：中国語B2が必要"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="diff-l">中国語B2が必要</span></div><p class="pitch">「台湾の神々」「漢人社会の民間文化・儀礼・演劇」「道教」「仏教・道教の美術」「宗教と台湾史」「宗教と文化商品」…と、学びたいことがほぼ全部そろう。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="2" width="14" height="20" rx="2" fill="var(--c-sky)"/><rect x="6" y="7" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="11" width="8" height="2" fill="var(--c-cream)"/><rect x="6" y="15" width="5" height="2" fill="var(--c-cream)"/><path d="M16 21 20 7l3 1-4 14z" fill="var(--c-orange)"/></svg></span><div><b>授業</b><div class="srb">ほぼ中国語。英語の授業は「現代東アジアの仏教と社会」の1つだけ（2026年秋）</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-green)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="var(--c-cream)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>出願</b><div class="srb">外国人は中国語TOCFL高階（B2）が基準。修業は2〜4年、30単位。修論は中国語か英語。中国語を1〜2年しっかりやってから入るルート</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-sky)"/><path d="M5 7c3-1 5 1 4 3s-4 2-4 5c-2-2-2-5 0-8zM14 3.5c3 1 6 4 6.4 8-2 0-3-1.5-5-.5s-1 4-3 5.5c-1-3 2-4.5 1-7s-1-4 .6-6z" fill="var(--c-green)"/></svg></span><div><b>まわり</b><div class="srb">すぐ上の猫空に道教の大きな廟「指南宮」。木柵の神さま「尪公」の修論（英語）も政治大学から出ている</div></div></div></div></div></details></div></section><section id="s-more"><h2><span class="sn">2</span>ほかの台湾の候補</h2><p class="lead">「風土・空間・場所」を学べそうなところを、台湾全体から。</p><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>台北大学 民俗芸術与文化資産研究所</b><span class="tag sky">中身◎</span></div><p>新北市・三峡。授業に「儀式空間と場所」「空間計画の社会文化的な基礎」「文化空間研究」「文化人類学」「芸術人類学」「台湾の民間信仰」「文化景観」。中国語中心で、留学生の受け入れは要確認</p></div><div class="hrow"><div class="hk"><b>政治大学 アジア太平洋研究 英語修士（IMAS）</b><span class="tag leaf">全部英語</span></div><p>台北・木柵。授業はすべて英語で、人類学・民族学・歴史も。尪公の英語の修士論文もここ</p></div><div class="hrow"><div class="hk"><b>台湾聯合大学 亜際文化研究 国際修士</b><span class="tag leaf">英語でも</span></div><p>陽明交通大学・清華大学など。授業の約35％が英中両方、論文は英語でOK、英語はIELTS 5.5〜。批判理論・視覚文化が中心</p></div><div class="hrow"><div class="hk"><b>東海大学 建築学系</b></div><p>台中。歴史・理論と住民参加のまちづくりの修士（中国語）と、英語の国際課程。英語の授業に、風水・宗教建築・「場所の精神」を扱う文化遺産の授業も</p></div><div class="hrow"><div class="hk"><b>台湾大学 建築與城鄉研究所</b></div><p>台北。空間と社会、保存、コミュニティづくり。言葉の条件は要確認</p></div><div class="hrow"><div class="hk"><b>台北芸術大学 国際芸術修士</b><span class="tag leaf">全部英語</span></div><p>北投。アート・文化研究・批評。人類学ではないが、アートの側から風土を考えるなら</p></div><div class="hrow"><div class="hk"><b>台湾大学 人類学系</b></div><p>台湾でいちばん歴史のある人類学科。修士は中国語で教える</p></div></div></div></section><section id="s-eu"><h2><span class="sn">3</span>ヨーロッパ（修士・博士・交換留学）</h2><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>アバディーン大学（スコットランド）</b><span class="tag sky">中身◎</span></div><p>2003年にインゴルドが立ち上げた人類学科。芸術・視覚・博物館・物質文化・宗教。「人類学と芸術：場所・風景・素材」の授業も。以前はデザイン人類学の修士があった（今もあるかは要確認）。入学の目安はイギリスの2:2相当。1年の修士</p></div><div class="hrow"><div class="hk"><b>エディンバラ大学 社会人類学</b></div><p>1年の修士。入学の目安は2:1相当</p></div><div class="hrow"><div class="hk"><b>デンマーク</b><span class="tag rose">人類学は難しめ</span></div><p>コペンハーゲン大学・オーフス大学の人類学の修士は、人類学の学部卒が前提。デザイン系（コリング・デザインスクールなど）は英語の修士あり</p></div><div class="hrow"><div class="hk"><b>ホイスコーレ（デンマーク）</b><span class="tag leaf">年齢制限なし</span></div><p>週約2,000クローネで寮と食事込み。90日を超えるなら滞在許可。夏の短いコースなら許可なしで行ける</p></div></div></div><div class="card"><b>台湾の大学院からの交換留学</b><ul class="dots small"><li><b>師範大学</b>：在籍したまま協定校へ1学期（2回まで・合計2学期）。相手の学費は不要。<b>台湾政府の奨学金をもらっていると応募できない</b>（学院のルール）。師範大学の奨学金は交換中は止まる</li><li><b>清華大学</b>：留学生も応募できる（日本以外）。学院の例ではIELTS 6.0以上・GPA 3.20以上か上位50%</li><li>交換の学期も修業年限に数える。ヨーロッパの生活費は自分で</li></ul></div></section><section id="s-other"><h2><span class="sn">4</span>上海・香港とくらべると</h2><p class="lead">台湾をいちばんに考えたうえで、香港と上海（中国本土）もくらべました。</p><div class="cmp cmp3" role="table" aria-label="台湾・香港・上海の比較"><div class="cmp-row head" role="row"><span role="columnheader"></span><span role="columnheader" class=pick>台湾</span><span role="columnheader">香港</span><span role="columnheader">上海</span></div><div class="cmp-row" role="row"><span role="rowheader">ことば</span><span class=pick>華語＋繁体字。お廟の文字も同じ</span><span>日常は広東語（88%）。普通話を話せる人は54%</span><span>普通話（標準語）＋簡体字</span></div><div class="cmp-row" role="row"><span role="rowheader">英語で学べる</span><span class=pick>師範大・佛光大・清華大</span><span><b>香港中文大学の人類学MA</b>（1年・英語で修了できる）、香港大学の仏教学</span><span>華東師範大学の人類学（3年・英語）、北京大学の燕京学堂</span></div><div class="cmp-row" role="row"><span role="rowheader">お金（自費）</span><span class=pick>3年で約450〜570万円（寮）</span><span><b>1年で約570〜650万円</b>（学費約340〜380万円＋家賃）</span><span>3年で約670〜830万円</span></div><div class="cmp-row" role="row"><span role="rowheader">奨学金</span><span class=pick>台湾政府の給付が2種類</span><span>授業型MAは<b>なし</b>。研究型（MPhil）は月約HK$19,100の給付（狭き門）</span><span>中国政府・上海市の全額給付あり（学費・寮＋月3,000元）</span></div><div class="cmp-row" role="row"><span role="rowheader">お廟の調査</span><span class=pick>◎ しやすい</span><span>○ 廟は多い。広東語の壁</span><span><b>✕ 外国人の無許可の調査・アンケートにリスク</b></span></div><div class="cmp-row" role="row"><span role="rowheader">安全・自由</span><span class=pick>○</span><span>△ 国家安全法。研究者の自己検閲の報告</span><span>✕ 2014年以降、日本人17人が拘束（うち5人はまだ拘束中）</span></div><div class="cmp-row" role="row"><span role="rowheader">修了後</span><span class=pick>修了後2年は就労許可なしで働ける（2026年〜）</span><span>仕事がなくても2年滞在できる（IANG）</span><span>要確認</span></div><div class="cmp-row" role="row"><span role="rowheader">ヨーロッパのワーホリ</span><span class=pick>入学の時期しだい</span><span>◎ 1年で終わるので余裕</span><span>✕ 3年制で年齢を過ぎる</span></div></div><div class="stack"><details class="uni"><summary><div class="uni-top"><div><span class="tag sun">次点</span><span class="tag leaf">英語</span></div><h3>香港中文大学 人類学MA</h3><p class="meta">香港・沙田（1年）</p></div><div class="uni-stats"><div><small>期間</small><b>1年</b></div><div><small>1年の費用</small><b>約600万円</b></div><div><small>奨学金</small><b>なし</b></div></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="30" y="16" width="16" height="44" fill="var(--c-blue)"/><rect x="50" y="8" width="18" height="52" fill="var(--c-sky)"/><rect x="72" y="22" width="14" height="38" fill="var(--c-white)"/><path d="M0 58 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0" stroke="var(--c-blue)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M200 50 L240 50 L234 58 L206 58Z" fill="var(--c-orange)"/><path d="M220 50 L220 30 L234 48Z" fill="var(--c-pink)"/><path transform="translate(150 16) scale(0.7)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/></svg><div class="diff" aria-label="難易度 5段階中3：IELTS 6.5"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st">★</span><span class="st">★</span><span class="diff-l">IELTS 6.5</span></div><p class="pitch">必修はすべて英語で、英語だけで修了できる（選択科目の一部は広東語）。1年で終わるので、ヨーロッパのワーホリにも余裕で間に合う。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="17" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="13" rx="9" ry="4" fill="var(--c-yellow)"/><ellipse cx="12" cy="9" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="8.6" rx="5" ry="2" fill="var(--c-yellow)"/></svg></span><div><b>お金</b><div class="srb">学費 HK$180,000（2026-27年、約340万円）。自費のMAに奨学金はなく、学内の寮にも入れない。学外の部屋は月HK$6,000（約11万円）くらいから。1年で約570〜650万円の試算</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-sky)"/><path d="M5 7c3-1 5 1 4 3s-4 2-4 5c-2-2-2-5 0-8zM14 3.5c3 1 6 4 6.4 8-2 0-3-1.5-5-.5s-1 4-3 5.5c-1-3 2-4.5 1-7s-1-4 .6-6z" fill="var(--c-green)"/></svg></span><div><b>修了後</b><div class="srb">1年以上の修士を出ると、仕事が決まっていなくても24か月滞在できる（IANG）</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-pink)"/><rect x="5" y="10.5" width="14" height="3" rx="1.5" fill="var(--c-orange)"/></svg></span><div><b>気になる点</b><div class="srb">高い。日常は広東語で、華語は伸びにくい。国家安全法（2020年）と国家安全条例（2024年）</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag leaf">給付あり</span></div><h3>香港科技大学 人文学 MPhil（研究型）</h3><p class="meta">香港・清水湾（2年）</p></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="30" y="16" width="16" height="44" fill="var(--c-blue)"/><rect x="50" y="8" width="18" height="52" fill="var(--c-sky)"/><rect x="72" y="22" width="14" height="38" fill="var(--c-white)"/><path d="M0 58 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0" stroke="var(--c-blue)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M200 50 L240 50 L234 58 L206 58Z" fill="var(--c-orange)"/><path d="M220 50 L220 30 L234 48Z" fill="var(--c-pink)"/><path transform="translate(150 16) scale(0.7)" d="M0 0 C8 -1 14 -6 18 -14 C17 -5 14 0 24 1 C14 4 6 4 0 0Z" fill="var(--c-sky)"/></svg><div class="diff" aria-label="難易度 5段階中5：研究計画と実績が必要"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="diff-l">研究計画と実績が必要</span></div><p class="pitch">「華南（広東・福建・香港）の人類学・社会史」「哲学・宗教（道教・仏教）」の分野があり、民間信仰と相性がいい。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="17" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="13" rx="9" ry="4" fill="var(--c-yellow)"/><ellipse cx="12" cy="9" rx="9" ry="4" fill="var(--c-orange)"/><ellipse cx="12" cy="8.6" rx="5" ry="2" fill="var(--c-yellow)"/></svg></span><div><b>お金</b><div class="srb">給付 年HK$229,620（月約HK$19,100、約36万円）で、学費と家賃をほぼまかなえる</div></div></div><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-pink)"/><rect x="5" y="10.5" width="14" height="3" rx="1.5" fill="var(--c-orange)"/></svg></span><div><b>気になる点</b><div class="srb">枠が少なく競争が激しい。研究計画書と業績が必要</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag rose">挑戦</span></div><h3>北京大学 燕京学堂</h3><p class="meta">北京（2年）</p></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="20" y="30" width="60" height="30" fill="var(--c-white)"/><path d="M14 30 L50 18 L86 30Z" fill="var(--c-orange)"/><rect x="230" y="6" width="6" height="54" fill="var(--c-pink)"/><circle cx="233" cy="22" r="7" fill="var(--c-pink)"/><circle cx="233" cy="40" r="5" fill="var(--c-pink)"/><rect x="250" y="20" width="14" height="40" fill="var(--c-blue)"/><rect x="270" y="28" width="16" height="32" fill="var(--c-sky)"/><path d="M0 58 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0" stroke="var(--c-blue)" stroke-width="4" fill="none" stroke-linecap="round"/></svg><div class="diff" aria-label="難易度 5段階中5：IELTS 7.0"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="diff-l">IELTS 7.0</span></div><p class="pitch">全額給付（学費・寮・生活費・調査旅費）で、英語で学ぶ中国研究。「哲学と宗教」の専攻がある。毎年約120人。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-pink)"/><rect x="5" y="10.5" width="14" height="3" rx="1.5" fill="var(--c-orange)"/></svg></span><div><b>気になる点</b><div class="srb">IELTS 7.0。場所は北京。中国本土でのお廟の調査にはリスクがある（下）</div></div></div></div></div></details><details class="uni"><summary><div class="uni-top"><div><span class="tag ">見送り</span></div><h3>華東師範大学 人類学MA</h3><p class="meta">上海（3年）</p></div><span class="uni-more">くわしく見る</span></summary><div class="uni-body"><svg class="sc-ill" viewBox="0 0 320 64" aria-hidden="true"><rect width="320" height="64" fill="var(--c-cream)"/><rect x="20" y="30" width="60" height="30" fill="var(--c-white)"/><path d="M14 30 L50 18 L86 30Z" fill="var(--c-orange)"/><rect x="230" y="6" width="6" height="54" fill="var(--c-pink)"/><circle cx="233" cy="22" r="7" fill="var(--c-pink)"/><circle cx="233" cy="40" r="5" fill="var(--c-pink)"/><rect x="250" y="20" width="14" height="40" fill="var(--c-blue)"/><rect x="270" y="28" width="16" height="32" fill="var(--c-sky)"/><path d="M0 58 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0 q8 -9 16 0" stroke="var(--c-blue)" stroke-width="4" fill="none" stroke-linecap="round"/></svg><div class="diff" aria-label="難易度 5段階中3：IELTS 6.0"><span class="diff-k">難易度</span><span class="st on">★</span><span class="st on">★</span><span class="st on">★</span><span class="st">★</span><span class="st">★</span><span class="diff-l">IELTS 6.0</span></div><p class="pitch">英語で学べる人類学。食の人類学や映像人類学の授業もある。学費 年3.5万元（約74万円）。</p><div class="srows"><div class="srow"><span class="sri" aria-hidden="true"><svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="var(--c-pink)"/><rect x="5" y="10.5" width="14" height="3" rx="1.5" fill="var(--c-orange)"/></svg></span><div><b>見送りの理由</b><div class="srb"><b>外務省は、外国人の無許可の調査や学術的なアンケートも法律に触れるおそれがあると注意</b>（2025年7月）。2025年5月から外国人の宗教活動の細則も厳しくなった。3年制でヨーロッパのワーホリにも間に合わない</div></div></div></div></div></details></div><p class="callout" style="display:block"><b>結論：いちばん合うのは台湾。</b>華語を身につける・お廟と暮らしを見る・英語で学ぶ・奨学金、の4つが同時にそろう。次点は香港中文大学の1年MA（英語で人類学の基礎を固めたい、600万円を用意できるなら）。上海は、調査のリスクと日中関係を考えると、いまの目的には合わない。</p><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://www.arts.cuhk.edu.hk/~ant/programmes/postgraduate/postgraduate-programme-faqs/" target="_blank" rel="noopener">CUHK Anthropology: Postgraduate Programme FAQs</a></li><li><a href="https://www.gs.cuhk.edu.hk/programmes/arts/ma-anthropology" target="_blank" rel="noopener">CUHK Graduate School: MA Anthropology</a></li><li><a href="https://www.buddhism.hku.hk/ap/mbs/admission/" target="_blank" rel="noopener">HKU Centre of Buddhist Studies: MBS Admission</a></li><li><a href="https://prog-crs.hkust.edu.hk/pgprog/2026-27/mphil-phd-huma/" target="_blank" rel="noopener">HKUST: MPhil/PhD in Humanities 2026/27</a></li><li><a href="https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/scholarships-and-fees" target="_blank" rel="noopener">HKUST FYTGS: Scholarships and Fees</a></li><li><a href="https://www.immd.gov.hk/eng/services/visas/IANG.html" target="_blank" rel="noopener">香港入境事務處: IANG（2026年4月更新）</a></li><li><a href="https://www.hrw.org/report/2024/09/24/we-cant-write-truth-anymore/academic-freedom-hong-kong-under-national-security-0" target="_blank" rel="noopener">Human Rights Watch: Academic Freedom in Hong Kong（2024）</a></li><li><a href="https://yenchingacademy.pku.edu.cn/info/1040/4673.htm" target="_blank" rel="noopener">北京大学 燕京学堂: 募集情報</a></li><li><a href="https://www.mastersportal.com/studies/310405/anthropology.html" target="_blank" rel="noopener">Mastersportal: ECNU Anthropology M.A.（公式で要確認）</a></li><li><a href="https://lxs.ecnu.edu.cn/en_scholarship_graduate_shanghai_government_scholarship/list.htm" target="_blank" rel="noopener">ECNU: Shanghai Government Scholarship</a></li><li><a href="https://www.anzen.mofa.go.jp/info/pcspotinfo_2025C029.html" target="_blank" rel="noopener">外務省 海外安全HP: 中国の「反スパイ法」に関連する注意喚起（2025年7月）</a></li><li><a href="https://chsource.org/articles/new-religious-regulations-for-foreigners-in-china/" target="_blank" rel="noopener">ChinaSource: New Religious Regulations for Foreigners in China（2025）</a></li><li><a href="https://en.wikipedia.org/wiki/Languages_of_Hong_Kong" target="_blank" rel="noopener">Languages of Hong Kong（2021年国勢調査）</a></li></ul></div></details></section><section id="s-hoku"><h2><span class="sn">5</span>北大から台湾へ交換留学</h2><div class="card"><b>北大ルートでも、台湾には行ける</b><div class="hrows"><div class="hrow"><div class="hk"><b>台湾大学（台北）</b><span class="tag sky">大学全体の協定</span></div><p>北大生なら学部・研究科を問わず応募できる。2030年まで有効。院生を受け入れるかは要確認</p></div><div class="hrow"><div class="hk"><b>高雄大学 人文社会科学部</b><span class="tag leaf">文学院の協定</span></div><p>枠3名。IELTS 5.5程度（学部生の条件）</p></div><div class="hrow"><div class="hk"><b>雲林科技大学</b><span class="tag leaf">文学院の協定</span></div><p>学生交換あり</p></div><div class="hrow"><div class="hk"><b>政治大学 文学院ほか</b><span class="tag ">研究者の交流のみ</span></div><p>学生の交換留学には使えないけれど、現地調査の受け入れ先を紹介してもらう足がかりになる</p></div></div><p class="note">ただし修士2年で、ヨーロッパと台湾の両方に交換留学するのは時間的に難しい。</p></div></section></main>
+<main class="view" data-view="prep" hidden><header class="vhead"><p class="eyebrow">PREPARATION</p><h1>準備と手続き</h1><p class=lead>語学・出願書類・ビザ・住まい・日本側の手続き、そして心配なこと。</p><div class=jump><button type="button" data-jump="r-lang">1 語学</button><button type="button" data-jump="r-docs">2 手続き</button><button type="button" data-jump="r-room">3 住まい</button><button type="button" data-jump="r-worry">4 心配なこと</button><button type="button" data-jump="r-chk">5 やること</button></div></header><section id="r-sum"><div class="card sum"><p class="eyebrow">3行でいうと</p><ol class="sum3"><li><b>2027年は英語が主役</b>（IELTS 6.5）。中国語はNHKラジオで。清華大学なら台湾の語学センターでB1まで</li><li><b>書類は早めに</b>。九大の英文の卒業・成績証明書を代表処で認証（1部2,300円・約1週間）</li><li><b>渡航前に、居留ビザ</b>。入国から30日以内に居留証。7か月目から台湾の健保</li></ol></div></section><section id="r-lang"><h2><span class="sn">1</span>語学の計画</h2><div class="phases"><div class="card"><span class="note">2027年</span><b class="num">A1</b><small>NHKラジオ「まいにち中国語」で毎日15分。声調から、声に出してまねる</small></div><div class="card"><span class="note">入学まで</span><b class="num">A2</b><small>毎日15〜30分の自習を足す。台湾で買い物や道を聞ける</small></div><div class="card"><span class="note">在学中</span><b class="num">B1〜</b><small>大学の語学センター。お廟で話を聞けるように</small></div></div><div class="card"><b>語学の条件</b><div class="hrows"><div class="hrow"><div class="hk"><b>清華大学 人類学</b><span class="tag rose">両方必須</span></div><p>IELTS 6.5（またはTOEFL iBT 80）＋TOCFL B1</p></div><div class="hrow"><div class="hk"><b>JASSO</b><span class="tag sky">IELTS 6.5</span></div><p>応募のときまでに。GPA 3.0以上も必要（九大の成績を確認）</p></div><div class="hrow"><div class="hk"><b>師範大学</b><span class="tag sky">B1以上</span></div><p>大学の基準。学科ごとの条件は要確認</p></div><div class="hrow"><div class="hk"><b>政治大学IMAS・亜際文化研究</b><span class="tag leaf">IELTS 5.5〜</span></div><p>亜際文化研究はIELTS 5.5など</p></div><div class="hrow"><div class="hk"><b>台湾政府の奨学金</b></div><p>英語のルートは英語のスコア＋「全英語コース」の証明。中国語のルートはTOCFL B1</p></div></div></div><div class="card"><b>IELTSの勉強（いまは5.5くらい→6.5へ）</b><div class="hrows"><div class="hrow"><div class="hk"><b>リスニング・リーディング</b></div><p>公式の過去問集で独学。リーディングは「1つの文章を20分」に刻む。<b>英語の小説をいつもKindleに</b>（最初は『Convenience Store Woman』）</p></div><div class="hrow"><div class="hk"><b>ライティング</b><span class="tag rose">伸びしろ</span></div><p>IELTSの採点基準で見てもらう有料の添削＋ふだんはClaudeに送る</p></div><div class="hrow"><div class="hk"><b>スピーキング＋書く</b><span class="tag sky">GABAに決定</span></div><p>会話はGABAが断然いい（ワンコインイングリッシュ・シェーン・ECCと比べて）。4月から。英作文の添削とIELTSのスピーキング練習もGABAで。見積もりはもらい直す</p></div><div class="hrow"><div class="hk"><b>見直し</b></div><p>3か月ごとに本番か模試で確認。伸び悩んだ分野だけ、専門のコースに切り替える。費用の目安は月1〜2万円</p></div></div><p class="note">本番はブリティッシュ・カウンシルで申し込むと、練習問題（IELTS Ready）が40回分以上使える。シェアラウンジでは本番は受けられない（練習ならOK）。</p></div></section><section id="r-docs"><h2><span class="sn">2</span>出願・ビザ・居留証</h2><div class="tl"><div class="step" style="--c:var(--ink)"><div class="when"><span class="date">出願の前</span><span class="age"></span></div><h3>九大の英文の証明書を取り寄せて認証</h3><p>卒業証明書と成績証明書。台北駐日経済文化代表処で認証（1部2,300円、約1週間、郵送もOK）。奨学金の申請には認証済みのものが必要</p></div><div class="step" style="--c:var(--rose)"><div class="when"><span class="date">出願</span><span class="age"></span></div><h3>師範大学にオンラインで出願</h3><p>出願料 NT$1,500。財力証明 NT$150,000（約70万円）以上。研究計画・推薦状は学科ごとに要確認。秋入学は第1回が11月〜12月中旬、第2回が1月〜3月初め</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">合格したら</span><span class="age"></span></div><h3>居留ビザを申請（代表処の窓口）</h3><p>パスポート、入学許可書、卒業・成績証明の原本、健康診断書（3か月以内）、住民票、<b>6か月連続で50万円以上の残高の取引明細</b>。手数料10,100円、約1週間。<b>ビザなしで入国すると、あとから留学ビザに切り替えられない</b></p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">出国前</span><span class="age"></span></div><h3>日本側の手続き</h3><p>海外転出届、国民健康保険をやめる、年金の任意加入を決める、在留届（3か月以上の滞在は義務）</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">入国から30日以内</span><span class="age"></span></div><h3>居留証（ARC）を申請</h3><p>移民署で。NT$1,000、約10営業日。遅れると罰金</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">在学中</span><span class="age"></span></div><h3>アルバイトの許可</h3><p>学位の学生は入学後すぐ申請できる（NT$100）。週20時間まで、夏休み・冬休みは制限なし</p></div><div class="step" style="--c:var(--sky-d)"><div class="when"><span class="date">7か月目</span><span class="age"></span></div><h3>台湾の健保に入る</h3><p>6か月続けて住むと加入（留学生は義務）。それまでは日本の留学保険で</p></div></div></section><section id="r-room"><h2><span class="sn">3</span>住まい（寮）</h2><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>女二舍 2人部屋</b><span class="tag sky">いちばんきれい</span></div><p>2022年ごろにできた新しい建物（グリーンビルディング認証）。<b>2人部屋だけ部屋にお風呂とトイレ</b>（4人部屋は共用）。各階に共用キッチン。1学期 NT$26,710（約12.5万円）。公館キャンパス</p></div><div class="hrow"><div class="hk"><b>学七舍</b></div><p>2000年築。4人部屋で部屋にお風呂。公館キャンパス。1学期 約1.3万元（約6.3万円）</p></div><div class="hrow"><div class="hk"><b>清華大学の寮</b></div><p>院生は主に1人部屋か2人部屋。1人部屋 約1.7〜2.8万元／1学期</p></div><div class="hrow"><div class="hk"><b>研究生宿舎・女一分舍</b></div><p>1975〜81年築。お風呂は共用</p></div></div><ul class="dots small"><li>寮は抽選。留学生の1年目の院生は優先順位が高い</li><li>1年目は寮、2年目に自分で内見してきれいなワンルームへ</li><li>除湿機はほぼ必須（湿度50〜60%を目安に）。布団乾燥機も便利</li><li>ルームメイトは台湾人を希望できるか聞いてみる。雰囲気は女二舍の自治会のInstagramで</li></ul></div></section><section id="r-worry"><h2><span class="sn">4</span>心配なことと対策</h2><div class="faq"><details><summary>治安は？</summary><p>大きな事件は少なく、留学生の体験談でも「とても安全」という声が多い。ただ2024年の刑法犯は人口あたり日本の約2.8倍で、多いのは<b>詐欺と窃盗</b>（夜市のスリ、SNSの投資詐欺、違法タクシーなど）。テロ事件は2025年ゼロ。</p></details><details><summary>地震と台風は？</summary><p>地震は多く、花蓮では2024年4月にも震度6強。台風は7〜9月で、停電や休校もある。寮の避難経路と、水・ライトの備えを最初に確認する。</p></details><details><summary>中台関係が心配</summary><p>3か月以上住む人は<b>在留届が義務</b>（オンライン）。日本台湾交流協会の台北事務所が窓口で、24時間の緊急電話もある。2025年8月には、有事の退避も見すえた出入国情報の協力の覚書も結ばれた。パスポートの期限を長めに、航空券代くらいの現金を手元に。</p></details><details><summary>湿気とカビ</summary><p>湿度70〜80%がふつう。留学した東大生は「荷物がカビた」「除湿機を買い足した」。寮に暖房がないことも。</p></details><details><summary>さみしくならない？</summary><p>体験談では「台湾人の友だちは言葉の壁で難しく、友だちは主に留学生」「サークルで一気に友だちが増えた」という声。大学のカウンセリングを使った人も。師範大学が英語・日本語で相談できるかは要確認。</p></details><details><summary>「英語のプログラム」なのに中国語ばかり？</summary><p>外国人の口コミでは「英語の授業は先生によって質に差」「必修が中国語のことも」「運営は中国語で回る」という声。入学前に、英語の授業の割合を学科に聞く。</p></details><details><summary>3年もかかって大丈夫？</summary><p>台湾の修士は2年で出る人が少ない（台南大学の日本人は「同級生で2年は2人だけ」）。奨学金は最長2年なので、<b>3年目は自分で払う前提</b>で計画する。</p></details><details><summary>日本で学位は通用する？</summary><p>外国の修士をとった人は、日本の博士課程に入る資格がある（文部科学省）。就職では、学位そのものより研究の中身と語学力が見られる。</p></details></div></section><section id="r-chk"><h2><span class="sn">5</span>やることリスト</h2><p class="lead">チェックはこの端末に保存されます。</p><div class="list check"><div class="yr">2026年</div><label><input type="checkbox" data-k="tw_a1"><span><span class="when">2026.11</span>北大の説明会（遅れての申込みを事務室に相談）</span></label><label><input type="checkbox" data-k="tw_a2"><span><span class="when">2026.12</span>横浜の中国語教室の無料体験を2つ受ける</span></label><label><input type="checkbox" data-k="tw_a3"><span><span class="when">2026.11</span>11/21〜23に問い合わせメール（成功大学の林蕙玟先生・清華大学・師範大学・台北大学）</span></label><label><input type="checkbox" data-k="tw_a7"><span><span class="when">2026.12〜2027.03</span>千葉大学の鈴木雅之先生（台南に滞在中）に日本語で相談メール</span></label><label><input type="checkbox" data-k="tw_a8"><span><span class="when">2027.01〜</span>成功大学の出願用に、作品集（リサーチやデザインの仕事）を英語でまとめ始める</span></label><label><input type="checkbox" data-k="tw_a4"><span><span class="when">2026.11</span>11/23 IELTSの練習問題で力だめし（4分野の手ごたえをメモ）</span></label><label><input type="checkbox" data-k="tw_a5"><span><span class="when">2026.11〜</span>NHKラジオの中国語を始める（11月号の目次を確認）</span></label><label><input type="checkbox" data-k="tw_a6"><span><span class="when">2026.12</span>九大のGPAが3.0以上か確認</span></label><div class="yr">2027年</div><label><input type="checkbox" data-k="tw_b6"><span><span class="when">2027.01〜03</span>青色申告の承認申請（3/15まで）。2026年分は白色・事業所得で申告</span></label><label><input type="checkbox" data-k="tw_b7"><span><span class="when">2027.春</span>問い合わせの返事を見て、本命（師範／清華／台北大学）と入学の時期を決める</span></label><label><input type="checkbox" data-k="tw_b8"><span><span class="when">2027</span>ハローワークの窓口で教育訓練休暇給付金を相談。ふるさと納税はいつもどおり</span></label><label><input type="checkbox" data-k="tw_b9"><span><span class="when">2027.09〜10</span>JASSOの奨学金に申込み</span></label><label><input type="checkbox" data-k="tw_b1"><span><span class="when">2027.01〜</span>1〜3月はECC＋TOEICの独学（3月に受験）。4月からGABA（会話・添削）＋IELTS対策。英語の小説をKindleに</span></label><label><input type="checkbox" data-k="tw_b2"><span><span class="when">2027.前半</span>師範大学 台湾語文学系に「英語の授業の割合」「全部英語の証明を出せるか」「民間信仰を研究できるか」をメール</span></label><label><input type="checkbox" data-k="tw_b3"><span><span class="when">2027.夏</span>台湾で数日「暮らすつもり」で過ごす。師範大学を見学</span></label><label><input type="checkbox" data-k="tw_b4"><span><span class="when">2027.春〜夏</span>IELTSを本番で受ける（夏までに6.5）</span></label><label><input type="checkbox" data-k="tw_b5"><span><span class="when">2027.秋</span>九大の英文の卒業・成績証明を取り寄せて、代表処で認証</span></label><div class="yr">入学の前の年</div><label><input type="checkbox" data-k="tw_c1"><span><span class="when">11月〜3月</span>大学院に出願</span></label><label><input type="checkbox" data-k="tw_c2"><span><span class="when">2〜3月</span>台湾政府の奨学金に申込み</span></label><label><input type="checkbox" data-k="tw_c3"><span><span class="when">出国の6か月前〜</span>口座に50万円以上をキープ（ビザ用）</span></label><label><input type="checkbox" data-k="tw_c4"><span><span class="when">6〜7月</span>健康診断・住民票・居留ビザ・寮の申込み</span></label><label><input type="checkbox" data-k="tw_c5"><span><span class="when">出国前</span>海外転出届・国保・年金・在留届</span></label></div></section><section id="r-src"><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://www.roc-taiwan.org/jp_ja/post/117303.html" target="_blank" rel="noopener">台北駐日経済文化代表処：留学（学位課程）居留ビザ</a></li><li><a href="https://www.roc-taiwan.org/jp_ja/post/81550.html" target="_blank" rel="noopener">台北駐日経済文化代表処：郵送による認証申請</a></li><li><a href="https://bds.oia.ntnu.edu.tw/api/v1/ap/dl?id=359002" target="_blank" rel="noopener">NTNU International Student Admission Prospectus Fall 2026 / Spring 2027</a></li><li><a href="https://blog.104.com.tw/foreign-students-pt-job-qa/" target="_blank" rel="noopener">104人力銀行：外國留學生打工 Q&A</a></li><li><a href="https://www.anzen.mofa.go.jp/info/pcsafetymeasure_008.html" target="_blank" rel="noopener">外務省 海外安全HP：台湾 安全対策基礎データ（2025年11月）</a></li><li><a href="https://asianews.network/japan-taiwan-sign-rare-accord-on-evacuations-in-light-of-possible-contingency/" target="_blank" rel="noopener">Asia News Network：Japan, Taiwan sign rare accord on evacuations（2025年8月）</a></li><li><a href="https://www.u-tokyo.ac.jp/content/400245792.pdf" target="_blank" rel="noopener">東京大学 全学交換留学 報告書（台湾大学、2022年）</a></li><li><a href="https://www.mext.go.jp/a_menu/koutou/shikaku/07111317.htm" target="_blank" rel="noopener">文部科学省：大学院博士課程（後期）の入学資格</a></li><li><a href="https://www.roc-taiwan.org/uploads/sites/43/2022/07/2022年東京地区華語文能力試験実施概要.pdf" target="_blank" rel="noopener">2022年 東京地区 華語文能力試験 実施概要</a></li></ul></div></details></section></main>
+<main class="view" data-view="learn" hidden><header class="vhead"><p class="eyebrow">LEARN</p><h1>台湾で学ぶこと</h1><p class=lead>研究の芯（風土と人のものの見方）、先に書いた人の論文、体験談、知っておきたい言葉。</p><div class=jump><button type="button" data-jump="l-theme">1 芯と種</button><button type="button" data-jump="l-papers">2 論文</button><button type="button" data-jump="l-people">3 研究者</button><button type="button" data-jump="l-voices">4 体験談</button><button type="button" data-jump="l-words">5 ことば</button></div></header><section id="l-theme"><h2><span class="sn">1</span>研究テーマの芯と種</h2><div class="card sum"><p class="eyebrow">芯の一文（仮）</p><p style="font-size:1rem;line-height:1.8"><b>人を包む風土（建物・空間・都市）が、人の感じ方やものの見方をどう形づくるのかを、エスノグラフィーで明らかにし、それを場づくりやデザインに生かす。</b></p><p class="note">デザイン（意図してつくる）→時間と暮らし→風土（意図を超えて育つ）→ものの見方→また次のデザイン。その「あいだ」に立つのが自分の個性。</p></div><div class="qgrid"><div class="qcard"><span class="qm" aria-hidden="true">？</span><b>あいだの空間</b><small>騎楼・お廟の前の広場・市場・縁側。内でも外でもない場所が、人の距離感やつながり方をどう変える？</small></div><div class="qcard"><span class="qm" aria-hidden="true">？</span><b>雰囲気と感覚</b><small>光・音・におい・素材が、「神聖」「居心地がいい」という感覚をどうつくる？</small></div><div class="qcard"><span class="qm" aria-hidden="true">？</span><b>ものと人の往復</b><small>ものや空間が人を変え、人が使い方を変えると意味も変わる（デザイン人類学）</small></div><div class="qcard"><span class="qm" aria-hidden="true">？</span><b>デザインが風土になるまで</b><small>日本統治時代の決まりから始まった騎楼が、いまの台湾らしさになるまで</small></div></div><div class="card"><b>入口の本（日本語で読める）</b><ul class="dots small"><li>和辻哲郎『風土』（岩波文庫）：いちばんの入口</li><li>オギュスタン・ベルク『風土の日本』（ちくま学芸文庫）</li><li>イーフー・トゥアン『空間の経験』（ちくま学芸文庫）</li><li>ガストン・バシュラール『空間の詩学』（ちくま学芸文庫）</li><li>ティム・インゴルド『メイキング』『生きていること』</li></ul><p class="note">キーワード：風土、場所（place）、住まうこと（dwelling）、雰囲気（atmosphere）、デザイン人類学、物質文化。お廟や民間信仰は「題材の一つ」。</p></div></section><section id="l-papers"><h2><span class="sn">2</span>お廟・民間信仰で論文を書いた人</h2><div class="stack"><div class="card"><p class="meta">タルトゥ大学（エストニア）・修士・2024年・英語</p><b>Anne Nestor「台湾の神々への相談と起業」</b><p style="font-size:.88rem">商売の判断に神さまをどう関わらせるか。ポエ（筊）で神意を聞く、お廟から「發財金」を借りる。2023年2〜3月に台湾に滞在し、10人に聞き取り（8人は英語、2人は通訳つき）。</p></div><div class="card"><p class="meta">政治大学 IMAS・修士・2022年・英語174ページ</p><b>Victoria Giang「近代化する尪公」</b><p style="font-size:.88rem">台北・木柵の神さま「尪公」。茶畑と農業を守った神が、いまは不動産業やサービス業の信者に頼られている。「人間でないものの主体性」の理論で読む。</p></div><div class="card"><p class="meta">政治大学・修士・2007年・英語</p><b>Fabian Graham「台湾民間信仰の功利的性質」</b><p style="font-size:.88rem">龍山寺・南鯤鯓など4つのお廟で調査。ポエを中心に、台湾の民間信仰は「ご利益」を大事にすると論じる。</p></div><div class="card"><p class="meta">政治大学・博士・2023年・英語</p><b>James Morris「台北盆地の土地公の祠を地図にする」</b><p style="font-size:.88rem">636か所の土地公を訪ねて、地図（GIS）で地域の歴史を読む。デザインの力が生きる研究の形。</p></div><div class="card"><p class="meta">西南学院大学 大学院・2003年・日本語</p><b>「台湾の宗教政策と人々の宗教信仰活動」</b><p style="font-size:.88rem">童乩（タンキー、神がかりの霊媒）と、病気のときの頼り方。約3年の現地調査とアンケート・聞き取り。</p></div></div></section><section id="l-people"><h2><span class="sn">3</span>知っておきたい研究者</h2><div class="card"><div class="hrows"><div class="hrow"><div class="hk"><b>藤野陽平</b><span class="tag sky">慶應 教授</span></div><p>台湾の「日本神」（日本人を祀る祠、50か所以上）を調査。2026〜2029年は「戦死者の慰霊で、国と民間の祀り方が食い違うこと」を研究。2024年まで北大</p></div><div class="hrow"><div class="hk"><b>三尾裕子</b><span class="tag ">慶應 名誉教授</span></div><p>台湾の漢人の民間信仰を30年以上。日本人を神として祀る信仰を、植民地や戦争の記憶を「飼いならす」やり方として論じる</p></div><div class="hrow"><div class="hk"><b>天江喜久</b><span class="tag leaf">台湾師範大学</span></div><p>日本人。台湾史、歴史の記憶</p></div><div class="hrow"><div class="hk"><b>陳玉箴</b><span class="tag leaf">台湾師範大学</span></div><p>食の人類学、台湾料理の文化史</p></div><div class="hrow"><div class="hk"><b>コートニー・ワーク</b><span class="tag sun">政治大学 民族学系</span></div><p>カンボジアで土地や水の精霊と人の関係を研究。尪公の修論を指導</p></div></div></div></section><section id="l-voices"><h2><span class="sn">4</span>台湾の大学院に行った人の話</h2><div class="stack"><div class="card"><p class="meta">国立台南大学 修士・2022〜2024年・中国語</p><b>高田さん（日本人、教育部台湾奨学金）</b><p style="font-size:.88rem">論文を読んで討論する授業が中心。2年で修了したのは同級生で2人だけ。修了の条件（研究計画・学会発表）は早めに確認すべき。日本時代の建物を研究して学会発表も。</p></div><div class="card"><p class="meta">輔仁大学 修士・2019〜2022年・中国語</p><b>翻訳の修士（note）</b><p style="font-size:.88rem">2年半で修了。1年目後半は語学センターにも通った。2年半で支出約248万円、奨学金約243万円＋翻訳とRAのバイト約55万円で、約51万円の黒字。いちばん大変だったのは証明書の中国語訳と認証。</p></div><div class="card"><p class="meta">師範大学 台湾史研究所 修士・中国語</p><b>日本人の院生（iae）</b><p style="font-size:.88rem">「人文系の修士を2年で出るのは厳しく、3〜3.5年がほとんど」。同級生には60代や中学校の先生も。</p></div><div class="card"><p class="meta">師範大学 国際人力資源の英語修士・2年</p><b>Marinaさん（ベルギー）</b><p style="font-size:.88rem">授業の量が多く、最初は英語の論文を読むのが大変。不安やホームシックのときに大学のカウンセリングを使った。</p></div><div class="card"><p class="meta">政治大学 IMAS・英語</p><b>Elijahさん（アメリカ、台湾奨学金）</b><p style="font-size:.88rem">中国語の聞き取りがいちばん難しい。奨学金のおかげで旅行もできた。大学の国際室でライターとして働いた。</p></div><div class="card"><p class="meta">台湾大学 語学センター・2026年・3か月</p><b>日本人（note）</b><p style="font-size:.88rem">エージェントなしで直接申し込める。授業は速く毎週テスト。いちばん大変だったのは部屋探し。このあと台湾のワーホリへ。</p></div><div class="card"><p class="meta">台湾大学 交換留学・2022年</p><b>東大の院生</b><p style="font-size:.88rem">寮の2人部屋で家賃 月約9,150円、生活費は月約5.3万円。湿気と虫に苦労して除湿機を買った。</p></div></div><p class="note">日本人が台湾で<b>人文系の修士を学位として</b>とった記録は少なく、師範大学 台湾語文学系・佛光大学・政治大学 宗教研究所の日本人の体験記は見つからなかった。学科に「日本人の在校生や卒業生と話せるか」を聞いてみる。</p><details class="more"><summary>出典</summary><div class="more-in"><ul class="dots small src"><li><a href="https://roc-taiwan.org/uploads/sites/44/2024/09/教育部台湾奨学金留学報告書_高田.pdf" target="_blank" rel="noopener">教育部台湾奨学金 留学報告書（高田、2024年）</a></li><li><a href="https://note.com/bunkaisya2022/n/n5f1a99f8486c" target="_blank" rel="noopener">note：台湾の大学院 留学費用（輔仁大学）</a></li><li><a href="https://www.iae-ryugaku.net/column/taiwan/" target="_blank" rel="noopener">iae：台湾の大学院に留学して思った、台湾と日本の学校の違い</a></li><li><a href="https://www.ciss.ntnu.edu.tw/?p=10603" target="_blank" rel="noopener">NTNU CISS：My Time in NTNU</a></li><li><a href="https://www.studyintaiwan.org/why-taiwan/meet-the-students/1338?utk=Lw" target="_blank" rel="noopener">Study in Taiwan：Meet the Students（Elijah Shoaf）</a></li><li><a href="https://note.com/nanataiwan_1106/n/n728084e66c32" target="_blank" rel="noopener">note：台湾大学 語文中心に3か月留学</a></li><li><a href="https://www.u-tokyo.ac.jp/content/400245792.pdf" target="_blank" rel="noopener">東京大学 全学交換留学 報告書（台湾大学、2022年）</a></li></ul></div></details></section><section id="l-words"><h2><span class="sn">5</span>知っておきたい言葉</h2><div class="stack"><div class="card"><b>華語（かご）／國語</b><p style="font-size:.88rem">台湾の共通語の中国語。学校・役所・テレビの言葉。繁体字で書く</p></div><div class="card"><b>台語（台湾語）</b><p style="font-size:.88rem">閩南語がもとの言葉。華語とはほぼ通じない別の言語。お廟・市場・年配の人の会話に多い</p></div><div class="card"><b>注音符号（ㄅㄆㄇㄈ）</b><p style="font-size:.88rem">台湾の発音記号。スマホの入力にも使う</p></div><div class="card"><b>土地公（トゥディゴン）</b><p style="font-size:.88rem">土地の神さま。町のあちこちに小さな祠がある</p></div><div class="card"><b>擲筊（ポエ）</b><p style="font-size:.88rem">三日月形の木片を2つ投げて、表と裏の組み合わせで神さまの答えを聞く</p></div><div class="card"><b>童乩（タンキー）</b><p style="font-size:.88rem">神がかりになって、神さまの言葉を伝える霊媒</p></div><div class="card"><b>普渡（プードゥ）</b><p style="font-size:.88rem">旧暦7月の、さまよう霊へのお供えの行事</p></div><div class="card"><b>人情味</b><p style="font-size:.88rem">台湾の人が、自分たちのよさとしてよく使う言葉。人のあたたかさ</p></div></div></section></main>
+<footer>金額・日程は2026年11月時点で調べた見込みです。1元＝約4.7円で計算しています。出典は各ページの「出典」に。</footer>
+</div>
+
+<nav class="bnav" aria-label="ページの切り替え"><div class="bnav-in"><a href="#home" data-nav="home"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><rect class="c1" x="20.5" y="6" width="3.2" height="6" rx="1"/><path class="c1" d="M3.5 15.5 16 5l12.5 10.5z"/><rect class="c2" x="6.5" y="14" width="19" height="13.5" rx="2.5"/><rect class="c1" x="14" y="18.5" width="5.5" height="9" rx="2.75"/><rect class="cw" x="9" y="17" width="3.6" height="3.6" rx="1"/><circle class="ca" cx="6" cy="6" r="1.6"/></svg></span>ホーム</a><a href="#plan" data-nav="plan"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><path class="c2" d="M1.5 29c4-6.5 9-8.5 14.5-8.5S26.5 22.5 30.5 29z"/><rect class="c3" x="14.4" y="4.5" width="1.9" height="18" rx=".95"/><path class="c1" d="M16.3 5h10.5l-3 4.3 3 4.3H16.3z"/><circle class="cw" cx="9" cy="25.5" r="1.3"/><circle class="ca" cx="6.5" cy="9" r="2.2"/></svg></span>計画</a><a href="#money" data-nav="money"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><rect class="c2" x="3" y="10.5" width="23" height="16.5" rx="3.5"/><rect class="c1" x="17.5" y="15.5" width="10.5" height="6.5" rx="2.5"/><circle class="cw" cx="21" cy="18.75" r="1.3"/><circle class="c1" cx="22" cy="7.5" r="4.6"/><circle class="cw" cx="22" cy="7.5" r="2.2"/><path class="c1" d="M6 10.5 18 5.2l2 5.3z"/></svg></span>お金</a><a href="#schools" data-nav="schools"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><path class="c2" d="M8 15.2v5.8c4.5 3.6 11.5 3.6 16 0v-5.8L16 19z"/><path class="c1" d="M16 5 2 12l14 7 14-7z"/><rect class="ca" x="26.6" y="12.4" width="1.7" height="7.5" rx=".85"/><circle class="ca" cx="27.45" cy="21.3" r="2"/><circle class="cw" cx="16" cy="12" r="1.4"/></svg></span>大学</a><a href="#prep" data-nav="prep"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><rect class="c2" x="5.5" y="5" width="21" height="24" rx="3.5"/><rect class="c1" x="11" y="2.8" width="10" height="5.2" rx="2.2"/><path class="s1" d="M10.5 17.2l3.6 3.6 7.6-7.6"/><rect class="cw" x="10" y="24" width="12" height="1.8" rx=".9"/><circle class="ca" cx="27.5" cy="27" r="1.6"/></svg></span>準備</a><a href="#learn" data-nav="learn"><span class="ic"><svg viewBox="0 0 32 32" aria-hidden="true"><path class="c2" d="M2.5 8.5c4-1.6 8.6-1.3 12.3 1.3v17.4c-3.7-2.4-8.3-2.7-12.3-1.3z"/><path class="c1" d="M29.5 8.5c-4-1.6-8.6-1.3-12.3 1.3v17.4c3.7-2.4 8.3-2.7 12.3-1.3z"/><path class="ca" d="M25.5 1.5l1.1 2.6 2.6 1.1-2.6 1.1-1.1 2.6-1.1-2.6-2.6-1.1 2.6-1.1z"/><rect class="cw" x="20" y="14" width="6.5" height="1.6" rx=".8"/><rect class="cw" x="20" y="18" width="5" height="1.6" rx=".8"/></svg></span>学ぶ</a></div></nav>
+<script>
+(function(){
+  var tip=document.createElement('div'); tip.className='ctip'; document.body.appendChild(tip);
+  function place(e){ var x=e.clientX, y=e.clientY, w=tip.offsetWidth, h=tip.offsetHeight;
+    var L=Math.min(Math.max(8,x-w/2), window.innerWidth-w-8), T=y-h-14; if(T<8) T=y+18; tip.style.left=L+'px'; tip.style.top=T+'px'; }
+  var cur=null;
+  function show(el,e){ if(cur&&cur!==el) cur.classList.remove('on'); cur=el; el.classList.add('on'); tip.innerHTML=el.getAttribute('data-tip'); tip.classList.add('show'); place(e);
+    var xh=el.closest('svg').querySelector('.xh'); if(xh&&el.dataset.x){ xh.setAttribute('x1',el.dataset.x); xh.setAttribute('x2',el.dataset.x); xh.style.opacity=.5; } }
+  function hide(){ tip.classList.remove('show'); if(cur){ cur.classList.remove('on'); var xh=cur.closest('svg').querySelector('.xh'); if(xh) xh.style.opacity=0; cur=null; } }
+  document.addEventListener('pointermove',function(e){ var el=e.target.closest&&e.target.closest('[data-tip]'); if(el) show(el,e); else if(e.pointerType==='mouse') hide(); });
+  document.addEventListener('pointerdown',function(e){ var el=e.target.closest&&e.target.closest('[data-tip]'); if(el) show(el,e); else hide(); });
+  window.addEventListener('scroll',hide,{passive:true});
+})();
+</script>
+<script>
+(function(){
+  var NAV={home:"ホーム",plan:"計画",money:"お金",schools:"大学・留学",prep:"準備",learn:"学ぶ"};
+  var sheet=document.getElementById('qa-sheet'), ta=document.getElementById('qa-text'), where=document.getElementById('qa-where'),
+      msg=document.getElementById('qa-msg'), send=document.getElementById('qa-send'), line=document.getElementById('qa-line');
+  if(send) send.style.display='none';
+  var ctx="", comments=null;
+  document.querySelectorAll('.view section[id]').forEach(function(sec){
+    var h=sec.querySelector('h2'); if(!h||sec.id==='h-qa') return;
+    var v=sec.closest('.view').dataset.view; var label=(NAV[v]||'')+'「'+h.textContent.replace(/^\d+/,'').trim()+'」';
+    var b=document.createElement('button'); b.type='button'; b.className='qa-ask'; b.textContent='？ ここについて質問する'; b.setAttribute('data-qa-open',label); sec.appendChild(b);
+  });
+  function lineHref(){ var t='【さやかの大学院探検】'+(ctx?ctx+'について\n':'\n')+ta.value; line.href='https://line.me/R/share?text='+encodeURIComponent(t); }
+  function openSheet(label){ ctx=label; where.textContent=ctx?('「'+ctx+'」について'):''; msg.textContent='書いてから「LINEで送る」を押すと、さやかに届きます。'; sheet.hidden=false; lineHref(); setTimeout(function(){ta.focus();},50); }
+  function close(){ sheet.hidden=true; }
+  async function ask(btn){
+    var label=btn.getAttribute('data-qa-open'); var target=btn.closest('section')||document.querySelector('.view:not([hidden]) .vhead')||document.querySelector('.view:not([hidden])');
+    if(!label){ var v=document.querySelector('.view:not([hidden])'); label=v?(NAV[v.dataset.view]||''):''; }
+    if(comments&&target){
+      try{ var r=await comments.openComposer({element:target}); if(r&&r.opened) return; if(r&&r.opened===false) return; }
+      catch(e){ if(e&&e.code==='unavailable'){ comments=null; } }
+    }
+    openSheet(label);
+  }
+  document.addEventListener('click',function(e){
+    var o=e.target.closest('[data-qa-open]'); if(o){ e.preventDefault(); ask(o); return; }
+    if(e.target.closest('[data-qa-close]')||e.target===sheet) close();
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!sheet.hidden) close(); });
+  ta.addEventListener('input',lineHref);
+  (async function(){ try{ comments=await claude.use('comments'); }catch(e){ comments=null; } })();
+})();
+
+(function(){
+  document.addEventListener('click',function(e){
+    var t=e.target.closest&&e.target.closest('.term'); if(!t) return;
+    e.preventDefault();
+    var blk=t.closest('li,p,.more-in > div > div,div'); if(!blk) return;
+    var open=t.getAttribute('aria-expanded')==='true';
+    if(t._box){ t._box.remove(); t._box=null; }
+    if(open){ t.setAttribute('aria-expanded','false'); return; }
+    var box=document.createElement('div'); box.className='term-box'; box.setAttribute('role','note');
+    box.innerHTML=t.getAttribute('data-def')+'<button type="button" class="term-x">閉じる</button>';
+    box.querySelector('.term-x').addEventListener('click',function(){ box.remove(); t._box=null; t.setAttribute('aria-expanded','false'); t.focus(); });
+    blk.insertAdjacentElement('afterend',box); t._box=box; t.setAttribute('aria-expanded','true');
+  });
+})();
+
+(function(){
+  var shelf=document.querySelector('.shelf'); if(!shelf) return;
+  var LK='books-v1', st={}, mode='local', ref=null, canWrite=true, busy=false;
+  try{ st=JSON.parse(localStorage.getItem(LK)||'{}')||{}; }catch(e){ st={}; }
+  function today(){ var d=new Date(); return d.getFullYear()+'.'+(d.getMonth()+1)+'.'+d.getDate(); }
+  function render(){
+    var done=0, reading=0;
+    shelf.querySelectorAll('.bk').forEach(function(el){
+      var s=st[el.dataset.k]||{}; el.dataset.state=s.state||'';
+      if(s.state==='done') done++; if(s.state==='reading') reading++;
+      el.querySelectorAll('.bk-btn').forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.act===s.state)); });
+      el.querySelector('.bk-date').textContent = s.state==='done' && s.date ? s.date+' に読了' : (s.state==='reading' ? '読書中' : '');
+    });
+    shelf.querySelector('.shelf-sum').textContent='4冊中 '+done+'冊 読了'+(reading?'・'+reading+'冊 読書中':'');
+  }
+  function save(){
+    if(mode==='db' && ref){ if(busy) return; busy=true; ref.set({books:st}).catch(function(e){ if(e&&e.code==='invalid_argument'){ shelf.classList.add('ro'); } }).then(function(){ busy=false; }); }
+    else { try{ localStorage.setItem(LK, JSON.stringify(st)); }catch(e){} }
+  }
+  shelf.addEventListener('click', function(e){
+    var b=e.target.closest&&e.target.closest('.bk-btn'); if(!b || !canWrite) return;
+    var k=b.closest('.bk').dataset.k, cur=(st[k]||{}).state, act=b.dataset.act;
+    st=Object.assign({}, st);
+    if(cur===act){ delete st[k]; } else { st[k]= act==='done' ? {state:'done', date:today()} : {state:'reading'}; }
+    render(); save();
+  });
+  render();
+  (async function(){
+    if(!window.claude || !window.claude.use) return;
+    var db=await window.claude.use('db'); if(!db) return;
+    var user=await window.claude.use('user');
+    canWrite = user ? await user.isOwner() : false;
+    mode='db'; ref=db.doc('shelf/books');
+    if(!canWrite){ shelf.classList.add('ro'); shelf.querySelector('.shelf-help').textContent='さやかが読んだ本には、スタンプが押されていきます。'; }
+    ref.onSnapshot(function(snap){ var d=snap.exists ? snap.data() : null; st=(d && d.books) || {}; render(); }, function(){});
+  })();
+})();
+</script>
+<script>
+(function(){
+  var keys=["home", "plan", "money", "schools", "prep", "learn"], alias={"roadmap": "plan", "study": "learn", "papers": "learn", "voices": "learn"};
+  function show(){
+    var h=(location.hash||'').replace('#',''); if(alias[h]) h=alias[h];
+    if(keys.indexOf(h)<0) h='home';
+    document.querySelectorAll('.view').forEach(function(v){ v.hidden = v.dataset.view!==h; });
+    document.querySelectorAll('[data-nav]').forEach(function(a){ if(a.dataset.nav===h) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+    window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange', show);
+  document.addEventListener('click', function(e){
+    var j=e.target.closest('[data-jump]');
+    if(j){ var t=document.getElementById(j.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); return; }
+    var a=e.target.closest('a[href^="#"]'); if(!a) return;
+    var k=a.getAttribute('href').slice(1); if(keys.indexOf(k)<0) return;
+    e.preventDefault(); if(location.hash!=='#'+k){ try{history.pushState(null,'','#'+k);}catch(_ ){} } show();
+  });
+  show();
+  document.querySelectorAll('.check input').forEach(function(c){
+    try{ c.checked = localStorage.getItem('chk_'+c.dataset.k)==='1'; }catch(e){}
+    c.addEventListener('change', function(){ try{ localStorage.setItem('chk_'+c.dataset.k, c.checked?'1':'0'); }catch(e){} });
+  });
+})();
+</script>
+
+</body></html>
